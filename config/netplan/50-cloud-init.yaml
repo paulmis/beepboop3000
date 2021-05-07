@@ -9,6 +9,6 @@ network:
             optional: true
             addresses: [192.168.0.200/24]
             access-points:
-                "dlink-3455":
-                    password: "ggatx84766"
+                "access-point":
+                    password: "password"
             dhcp4: false
