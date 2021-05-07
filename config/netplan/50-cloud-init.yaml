@@ -1,0 +1,14 @@
+network:
+    version: 2
+    ethernets:
+        eth0:
+            optional: true
+            dhcp4: true
+    wifis:
+        wlan0:
+            optional: true
+            addresses: [192.168.0.200/24]
+            access-points:
+                "dlink-3455":
+                    password: "ggatx84766"
+            dhcp4: false
