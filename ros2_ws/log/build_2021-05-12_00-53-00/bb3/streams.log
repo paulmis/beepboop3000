@@ -1,0 +1,34 @@
+[0.013s] Invoking command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3 -- -j8 -l8
+[0.059s] [35m[1mScanning dependencies of target bb3[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o[0m
+[0.107s] In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+[0.107s]                  from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+[0.107s]                  from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[0.107s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4528:6:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.107s]  4528 | /home/* n
+[0.107s]       |       
+[0.108s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4529:22:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.108s]  4529 | /home/pi/shared/dir_1/* w
+[0.108s]       |                       
+[0.108s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4530:22:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.108s]  4530 | /home/pi/shared/dir_2/* r
+[0.108s]       |                       
+[0.108s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4531:22:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.108s]  4531 | /home/pi/shared/dir_3/* u
+[0.108s]       |                       
+[0.108s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4584:11:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.108s]  4584 |    // /ram/*.c r
+[0.108s]       |            
+[0.108s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4740:11:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.108s]  4740 |    // /ram/*.c r
+[0.109s]       |            
+[0.109s] In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+[0.109s]                  from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[0.109s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/Float64.h: No such file or directory
+[0.109s]     3 | #include [01;31m[K<std_msgs/msg/Float64.h>[m[K
+[0.109s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.109s] compilation terminated.
+[0.109s] make[2]: *** [CMakeFiles/bb3.dir/build.make:63: CMakeFiles/bb3.dir/src/main.cpp.o] Error 1
+[0.109s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+[0.109s] make: *** [Makefile:141: all] Error 2
+[0.112s] Invoked command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3 -- -j8 -l8

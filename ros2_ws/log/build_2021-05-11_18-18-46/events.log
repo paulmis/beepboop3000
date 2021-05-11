@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (bb3) JobQueued: {'identifier': 'bb3', 'dependencies': OrderedDict()}
+[0.001111] (bb3) JobStarted: {'identifier': 'bb3'}
+[0.012986] (bb3) JobProgress: {'identifier': 'bb3', 'progress': 'cmake'}
+[0.013711] (bb3) JobProgress: {'identifier': 'bb3', 'progress': 'build'}
+[0.014444] (bb3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3', '--', '-j8', '-l8'], 'cwd': '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jesuschrist'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '1014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jesuschrist'), ('OLDPWD', '/home/jesuschrist/projects/beepboop3000/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '771'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jesuschrist'), ('JOURNAL_STREAM', '8:38120'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jesuschrist'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bs1:@/tmp/.ICE-unix/1057,unix/bs1:/tmp/.ICE-unix/1057'), ('INVOCATION_ID', '75d9510874f047e5810d44340ece98c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc564a74_f51c_4496_a4e5_9832fd96fc69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.185'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.058384] (bb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bb3\x1b[0m\n'}
+[0.085129] (bb3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o\x1b[0m\n'}
+[0.099989] (-) TimerEvent: {}
+[0.104619] (bb3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2\x1b[m\x1b[K,\n'}
+[0.104792] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1\x1b[m\x1b[K,\n'}
+[0.104859] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[0.104926] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4528:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[0.105000] (bb3) StderrLine: {'line': b' 4528 | /home/* n\n'}
+[0.105059] (bb3) StderrLine: {'line': b'      |       \n'}
+[0.105149] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4529:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[0.105226] (bb3) StderrLine: {'line': b' 4529 | /home/pi/shared/dir_1/* w\n'}
+[0.105283] (bb3) StderrLine: {'line': b'      |                       \n'}
+[0.105339] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4530:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[0.105397] (bb3) StderrLine: {'line': b' 4530 | /home/pi/shared/dir_2/* r\n'}
+[0.105454] (bb3) StderrLine: {'line': b'      |                       \n'}
+[0.105510] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4531:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[0.105567] (bb3) StderrLine: {'line': b' 4531 | /home/pi/shared/dir_3/* u\n'}
+[0.105624] (bb3) StderrLine: {'line': b'      |                       \n'}
+[0.105682] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4584:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[0.105740] (bb3) StderrLine: {'line': b' 4584 |    // /ram/*.c r\n'}
+[0.105799] (bb3) StderrLine: {'line': b'      |            \n'}
+[0.105856] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h:4740:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[0.105913] (bb3) StderrLine: {'line': b' 4740 |    // /ram/*.c r\n'}
+[0.106003] (bb3) StderrLine: {'line': b'      |            \n'}
+[0.200144] (-) TimerEvent: {}
+[0.237468] (bb3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1\x1b[m\x1b[K,\n'}
+[0.237700] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[0.237796] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:15:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.237911] (bb3) StderrLine: {'line': b'   15 |  void set(\x1b[01;31m\x1b[Kfloat64\x1b[m\x1b[K signal);\n'}
+[0.238024] (bb3) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.300291] (-) TimerEvent: {}
+[0.400683] (-) TimerEvent: {}
+[0.501148] (-) TimerEvent: {}
+[0.601594] (-) TimerEvent: {}
+[0.702038] (-) TimerEvent: {}
+[0.802386] (-) TimerEvent: {}
+[0.902765] (-) TimerEvent: {}
+[1.003231] (-) TimerEvent: {}
+[1.103665] (-) TimerEvent: {}
+[1.204132] (-) TimerEvent: {}
+[1.247276] (bb3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.247501] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:17:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krrclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.247611] (bb3) StderrLine: {'line': b'   17 |  \x1b[01;31m\x1b[Krrclcpp\x1b[m\x1b[K::Subscription<geometry_msgs::Twist>::SharedPtr subscription;\n'}
+[1.247724] (bb3) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.247797] (bb3) StderrLine: {'line': b'      |  \x1b[32m\x1b[Krclcpp\x1b[m\x1b[K\n'}
+[1.248930] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:19:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KMotor\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.249108] (bb3) StderrLine: {'line': b'   19 |  std::vector<\x1b[01;31m\x1b[Kmotor\x1b[m\x1b[K> get_motors();\n'}
+[1.249184] (bb3) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.249250] (bb3) StderrLine: {'line': b'      |              \x1b[32m\x1b[KMotor\x1b[m\x1b[K\n'}
+[1.249311] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:19:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.249409] (bb3) StderrLine: {'line': b'   19 |  std::vector<motor\x1b[01;31m\x1b[K>\x1b[m\x1b[K get_motors();\n'}
+[1.249547] (bb3) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.249740] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:19:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[1.249801] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:26:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.249868] (bb3) StderrLine: {'line': b'   26 |  Vehicle\x1b[34m\x1b[K(\x1b[m\x1b[Kstd::stirng\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kname\x1b[m\x1b[K, motor left_top, motor left_bottom, motor right_top, motor right_bottom);\n'}
+[1.249928] (bb3) StderrLine: {'line': b'      |         \x1b[34m\x1b[K~\x1b[m\x1b[K           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[1.250003] (bb3) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.250077] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:40:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[1.250142] (bb3) StderrLine: {'line': b'   40 | }\n'}
+[1.250199] (bb3) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.250257] (bb3) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.250318] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVehicle::Vehicle()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.250381] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:25:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.250439] (bb3) StderrLine: {'line': b'   25 |  Vehicle() \x1b[01;31m\x1b[K{\x1b[m\x1b[K}\n'}
+[1.250542] (bb3) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.250612] (bb3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.250671] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.250728] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.250786] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:8\x1b[m\x1b[K,\n'}
+[1.250844] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.250902] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1190:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.250965] (bb3) StderrLine: {'line': b' 1190 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[1.251022] (bb3) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.251080] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1190:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[1.251152] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.251239] (bb3) StderrLine: {'line': b'   98 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[1.251310] (bb3) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.251367] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[1.251425] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.251484] (bb3) StderrLine: {'line': b'   86 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[1.251691] (bb3) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.251768] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[1.251843] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.251901] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:25:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KMotor\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.251961] (bb3) StderrLine: {'line': b'   25 |             \x1b[01;31m\x1b[Kmotor\x1b[m\x1b[K(RIN1, RIN2, RENAA), motor(RIN4, RIN3, RENAB),\n'}
+[1.252028] (bb3) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.252112] (bb3) StderrLine: {'line': b'      |             \x1b[32m\x1b[KMotor\x1b[m\x1b[K\n'}
+[1.304219] (-) TimerEvent: {}
+[1.404537] (-) TimerEvent: {}
+[1.504885] (-) TimerEvent: {}
+[1.580722] (bb3) StderrLine: {'line': b'make[2]: *** [CMakeFiles/bb3.dir/build.make:63: CMakeFiles/bb3.dir/src/main.cpp.o] Error 1\n'}
+[1.580948] (bb3) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2\n'}
+[1.581094] (bb3) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.583040] (bb3) CommandEnded: {'returncode': 2}
+[1.605033] (-) TimerEvent: {}
+[1.612666] (bb3) JobEnded: {'identifier': 'bb3', 'rc': 2}
+[1.613644] (-) EventReactorShutdown: {}
