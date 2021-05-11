@@ -24,7 +24,7 @@ public:
 
 	// Ctors and dtors
 	Vehicle() {}
-	Vehicle(motor left_top, motor left_bottom, motor right_top, motor right_bottom);
+	Vehicle(std::stirng name, motor left_top, motor left_bottom, motor right_top, motor right_bottom);
 	~Vehicle();
 
 	// Testing

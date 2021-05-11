@@ -9,7 +9,7 @@ std::vector<motor> Vehicle::get_motors()
 Vehicle::Vehicle() {}
 
 // Constructs a new 4-wheeled vehicle that listens to telemetry input on '$name-telemetry'
-Vehicle::Vehicle(motor left_top, motor left_bottom, motor right_top, motor right_bottom)
+Vehicle::Vehicle(std::string name, motor left_top, motor left_bottom, motor right_top, motor right_bottom)
     : Node("vehicle-" + name), name(name),
     left_top(left_top), left_bottom(left_bottom), right_top(right_top), right_bottom(right_bottom)
 {
@@ -40,9 +40,25 @@ Vehicle::telemetry_callback(geometry_msgs::Twist telemetry)
 
     // Truncate
     velocity = std::max(0.0, std::min(1.0, velocity));
-    rotation = std::max(0.0, std::min(MATH_PI, rotation));
+    rotation = std::max(-1.0, std::min(1.0, rotation));
 
-    // TODO: implement translation to PWM
+    // Translate to motor signals
+    // Turn to the left -> slow down right motors
+    if (rotation > 0.0)
+    {
+        right_top.set(velocity * (1 - rotation));
+        right_bottom.set(velocity * (1 - rotation));
+        left_top.set(velocity);
+        left_bottom.set(velocity);
+    }
+    // Turn to the right -> slow down left motors
+    else
+    {
+        right_top.set(velocity);
+        right_bottom.set(velocity);
+        left_top.set(velocity * (1 - fabs(rotation)));
+        left_bottom.set(velocity * (1 - fabs(rotation)));
+    }
 }
 
 void Vehicle::voltage_test(float duration)

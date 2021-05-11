@@ -1,6 +1,18 @@
 #include <vector>
 #include <pigpio.h>
 
+#define LENAA 26
+#define LIN1 19
+#define LIN2 13
+#define LIN3 6
+#define LIN4 5
+#define LENAB 11
+#define RENAA 21
+#define RIN1 20
+#define RIN2 16
+#define RIN3 12
+#define RIN4 7
+#define RENAB 25
 
 class motor
 {
