@@ -1,3 +1,0 @@
-CMake Error: The source directory "/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3" does not appear to contain CMakeLists.txt.
-Specify --help for usage, or press the help button on the CMake GUI.
-make: *** [Makefile:266: cmake_check_build_system] Error 1

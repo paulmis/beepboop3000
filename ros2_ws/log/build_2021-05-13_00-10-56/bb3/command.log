@@ -1,4 +1,0 @@
-Invoking command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3 -- -j8 -l8
-Invoked command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3 -- -j8 -l8
-Invoking command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3
-Invoked command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3

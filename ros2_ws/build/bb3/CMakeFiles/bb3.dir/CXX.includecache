@@ -9,8 +9,8 @@
 /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h
 vector
 -
-pigpio.h
-/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h
+pigpiod_if2.h
+/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpiod_if2.h
 math.h
 /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/math.h
 geometry_msgs/msg/twist.hpp
@@ -39,8 +39,8 @@ geometry_msgs/msg/twist.hpp
 /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp
 Vehicle.h
 /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h
-pigpio.h
--
+pigpiod_if2.h
+/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpiod_if2.h
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp
