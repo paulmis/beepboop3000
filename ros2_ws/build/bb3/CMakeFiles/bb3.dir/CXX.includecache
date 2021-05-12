@@ -9,8 +9,10 @@
 /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h
 vector
 -
-lib/pigpio.h
-/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h
+pigpio.h
+/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h
+math.h
+/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/math.h
 geometry_msgs/msg/twist.hpp
 /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/geometry_msgs/msg/twist.hpp
 
@@ -25,6 +27,8 @@ memory
 -
 string
 -
+math.h
+-
 rclcpp/rclcpp.hpp
 /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/rclcpp/rclcpp.hpp
 std_msgs/msg/string.hpp
@@ -32,39 +36,11 @@ std_msgs/msg/string.hpp
 geometry_msgs/msg/twist.hpp
 /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/geometry_msgs/msg/twist.hpp
 
-/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h
-stddef.h
--
-stdint.h
--
-pthread.h
--
-stdio.h
--
-pigpio.h
--
-stdio.h
--
-pigpio.h
-/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h
-stdio.h
--
-pigpio.h
--
-stdio.h
--
-pigpio.h
--
-stdio.h
--
-pigpio.h
--
-
 /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp
 Vehicle.h
 /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h
-lib/pigpio.h
-/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h
+pigpio.h
+-
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

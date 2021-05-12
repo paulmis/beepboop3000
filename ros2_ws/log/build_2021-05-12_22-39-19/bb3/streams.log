@@ -1,0 +1,81 @@
+[0.015s] Invoking command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3 -- -j8 -l8
+[0.058s] [35m[1mScanning dependencies of target bb3[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o[0m
+[0.365s] In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+[0.366s]                  from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[0.366s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:[m[K In constructor ‘[01m[KMotor::Motor(int, int, int, int)[m[K’:
+[0.366s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:16:27:[m[K [01;31m[Kerror: [m[K‘[01m[KPI_OUTPUT[m[K’ was not declared in this scope
+[0.366s]    16 |   set_mode(pi, gpio_high, [01;31m[KPI_OUTPUT[m[K);
+[0.366s]       |                           [01;31m[K^~~~~~~~~[m[K
+[0.366s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:16:27:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPI_OUTPUT[m[K’ had not yet been defined
+[0.366s] In file included from [01m[K/usr/local/include/pigpiod_if2.h:31[m[K,
+[0.367s]                  from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[0.367s] [01m[K/usr/local/include/pigpio.h:614:[m[K [01;36m[Knote: [m[Kit was later defined here
+[0.367s]   614 | #define PI_OUTPUT 1
+[0.367s]       | 
+[0.367s] In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+[0.367s]                  from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[0.367s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:16:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_mode[m[K’ was not declared in this scope
+[0.367s]    16 |   [01;31m[Kset_mode[m[K(pi, gpio_high, PI_OUTPUT);
+[0.368s]       |   [01;31m[K^~~~~~~~[m[K
+[0.370s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:[m[K In member function ‘[01m[Kvoid Motor::set_off()[m[K’:
+[0.370s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:29:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpio_write[m[K’ was not declared in this scope
+[0.370s]    29 |   [01;31m[Kgpio_write[m[K(pi, gpio_low, 0);
+[0.370s]       |   [01;31m[K^~~~~~~~~~[m[K
+[0.373s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_PWM_dutycycle[m[K’ was not declared in this scope
+[0.373s]    31 |   [01;31m[Kset_PWM_dutycycle[m[K(pi, gpio_pwm, 0);
+[0.373s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.376s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:[m[K In member function ‘[01m[Kvoid Motor::set_high(int)[m[K’:
+[0.376s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpio_write[m[K’ was not declared in this scope
+[0.376s]    44 |   [01;31m[Kgpio_write[m[K(pi, gpio_low, 0);
+[0.376s]       |   [01;31m[K^~~~~~~~~~[m[K
+[0.379s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_PWM_dutycycle[m[K’ was not declared in this scope
+[0.379s]    46 |   [01;31m[Kset_PWM_dutycycle[m[K(pi, gpio_pwm, pwm);
+[0.379s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.381s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:[m[K In member function ‘[01m[Kvoid Motor::set_low(int)[m[K’:
+[0.381s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:51:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpio_write[m[K’ was not declared in this scope
+[0.381s]    51 |   [01;31m[Kgpio_write[m[K(pi, gpio_low, 1);
+[0.382s]       |   [01;31m[K^~~~~~~~~~[m[K
+[0.384s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:53:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_PWM_dutycycle[m[K’ was not declared in this scope
+[0.384s]    53 |   [01;31m[Kset_PWM_dutycycle[m[K(pi, gpio_pwm, pwm);
+[0.384s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.293s] In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[1.293s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In member function ‘[01m[Kvoid Vehicle::voltage_test(float)[m[K’:
+[1.293s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:84:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_sleep[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+[1.293s]    84 |   [01;31m[Ktime_sleep[m[K(duration);
+[1.294s]       |   [01;31m[K^~~~~~~~~~[m[K
+[1.294s]       |   [32m[Ktimespec[m[K
+[1.297s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In member function ‘[01m[Kvoid Vehicle::test()[m[K’:
+[1.298s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:93:4:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_sleep[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+[1.298s]    93 |    [01;31m[Ktime_sleep[m[K(1.0);
+[1.298s]       |    [01;31m[K^~~~~~~~~~[m[K
+[1.298s]       |    [32m[Ktimespec[m[K
+[1.301s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In member function ‘[01m[Kvoid Vehicle::stop(float)[m[K’:
+[1.301s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:119:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_sleep[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+[1.301s]   119 |   [01;31m[Ktime_sleep[m[K(delay);
+[1.301s]       |   [01;31m[K^~~~~~~~~~[m[K
+[1.301s]       |   [32m[Ktimespec[m[K
+[1.303s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In member function ‘[01m[Kvoid Vehicle::forward(int, float)[m[K’:
+[1.303s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:128:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_sleep[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+[1.303s]   128 |   [01;31m[Ktime_sleep[m[K(delay);
+[1.303s]       |   [01;31m[K^~~~~~~~~~[m[K
+[1.303s]       |   [32m[Ktimespec[m[K
+[1.306s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In member function ‘[01m[Kvoid Vehicle::backward(int, float)[m[K’:
+[1.306s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:137:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_sleep[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+[1.306s]   137 |   [01;31m[Ktime_sleep[m[K(delay);
+[1.306s]       |   [01;31m[K^~~~~~~~~~[m[K
+[1.307s]       |   [32m[Ktimespec[m[K
+[1.309s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In member function ‘[01m[Kvoid Vehicle::left(int, float)[m[K’:
+[1.309s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:146:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_sleep[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+[1.309s]   146 |   [01;31m[Ktime_sleep[m[K(delay);
+[1.309s]       |   [01;31m[K^~~~~~~~~~[m[K
+[1.309s]       |   [32m[Ktimespec[m[K
+[1.312s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In member function ‘[01m[Kvoid Vehicle::right(int, float)[m[K’:
+[1.312s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:155:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_sleep[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+[1.312s]   155 |   [01;31m[Ktime_sleep[m[K(delay);
+[1.312s]       |   [01;31m[K^~~~~~~~~~[m[K
+[1.312s]       |   [32m[Ktimespec[m[K
+[2.656s] make[2]: *** [CMakeFiles/bb3.dir/build.make:63: CMakeFiles/bb3.dir/src/main.cpp.o] Error 1
+[2.658s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+[2.659s] make: *** [Makefile:141: all] Error 2
+[2.663s] Invoked command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3 -- -j8 -l8

@@ -4,7 +4,6 @@
 CMakeFiles/bb3.dir/src/main.cpp.o
  /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h
  /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h
- /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib/pigpio.h
  /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp
  /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
  /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp

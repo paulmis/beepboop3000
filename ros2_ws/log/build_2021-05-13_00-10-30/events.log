@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000654] (bb3) JobQueued: {'identifier': 'bb3', 'dependencies': OrderedDict()}
+[0.001314] (bb3) JobStarted: {'identifier': 'bb3'}
+[0.011704] (bb3) JobProgress: {'identifier': 'bb3', 'progress': 'cmake'}
+[0.012505] (bb3) JobProgress: {'identifier': 'bb3', 'progress': 'build'}
+[0.013141] (bb3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3', '--', '-j8', '-l8'], 'cwd': '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jesuschrist'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '973'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jesuschrist'), ('OLDPWD', '/home/jesuschrist/projects/beepboop3000'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '750'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jesuschrist/projects/beepboop3000/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jesuschrist'), ('JOURNAL_STREAM', '8:36287'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jesuschrist'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bs1:@/tmp/.ICE-unix/1016,unix/bs1:/tmp/.ICE-unix/1016'), ('INVOCATION_ID', 'ff7ff3273d96436b94cd6ed26cf5118f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d5275ae0_b695_4e36_a389_4949fea0a3e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3:/opt/ros/foxy')]), 'shell': False}
+[0.041505] (bb3) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.060751] (bb3) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099984] (-) TimerEvent: {}
+[0.200375] (-) TimerEvent: {}
+[0.219682] (bb3) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.251371] (bb3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.255032] (bb3) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300521] (-) TimerEvent: {}
+[0.362692] (bb3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400655] (-) TimerEvent: {}
+[0.410487] (bb3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.412092] (bb3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500815] (-) TimerEvent: {}
+[0.550158] (bb3) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.583531] (bb3) StdoutLine: {'line': b'-- Found pigpio: /usr/local/include  \n'}
+[0.600945] (-) TimerEvent: {}
+[0.645253] (bb3) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.658408] (bb3) StdoutLine: {'line': b'-- Generating done\n'}
+[0.660288] (bb3) StdoutLine: {'line': b'-- Build files have been written to: /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3\n'}
+[0.686725] (bb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bb3\x1b[0m\n'}
+[0.701056] (-) TimerEvent: {}
+[0.713818] (bb3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o\x1b[0m\n'}
+[0.801255] (-) TimerEvent: {}
+[0.901748] (-) TimerEvent: {}
+[1.002160] (-) TimerEvent: {}
+[1.102630] (-) TimerEvent: {}
+[1.203016] (-) TimerEvent: {}
+[1.303435] (-) TimerEvent: {}
+[1.403865] (-) TimerEvent: {}
+[1.504270] (-) TimerEvent: {}
+[1.604668] (-) TimerEvent: {}
+[1.705101] (-) TimerEvent: {}
+[1.805503] (-) TimerEvent: {}
+[1.854799] (bb3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.855320] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVehicle::Vehicle(std::string, Motor, Motor, Motor, Motor)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.855440] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:62:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.855511] (bb3) StderrLine: {'line': b'   62 |   right_top(right_top), right_bottom(right_bottom\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[1.855574] (bb3) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.855636] (bb3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.855704] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.855772] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.855886] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:9\x1b[m\x1b[K,\n'}
+[1.855984] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.856043] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1190:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.856101] (bb3) StderrLine: {'line': b' 1190 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[1.856159] (bb3) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.856216] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1190:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[1.856274] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.856351] (bb3) StderrLine: {'line': b'   98 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[1.856422] (bb3) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.856498] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[1.856556] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.856617] (bb3) StderrLine: {'line': b'   86 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[1.856674] (bb3) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.856753] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[1.905656] (-) TimerEvent: {}
+[2.006042] (-) TimerEvent: {}
+[2.106435] (-) TimerEvent: {}
+[2.206871] (-) TimerEvent: {}
+[2.307261] (-) TimerEvent: {}
+[2.407645] (-) TimerEvent: {}
+[2.507967] (-) TimerEvent: {}
+[2.608319] (-) TimerEvent: {}
+[2.708664] (-) TimerEvent: {}
+[2.809122] (-) TimerEvent: {}
+[2.909488] (-) TimerEvent: {}
+[3.009931] (-) TimerEvent: {}
+[3.110329] (-) TimerEvent: {}
+[3.170378] (bb3) StderrLine: {'line': b'make[2]: *** [CMakeFiles/bb3.dir/build.make:63: CMakeFiles/bb3.dir/src/main.cpp.o] Error 1\n'}
+[3.170785] (bb3) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2\n'}
+[3.170938] (bb3) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.172606] (bb3) CommandEnded: {'returncode': 2}
+[3.208589] (bb3) JobEnded: {'identifier': 'bb3', 'rc': 2}
+[3.210395] (-) TimerEvent: {}
+[3.219493] (-) EventReactorShutdown: {}

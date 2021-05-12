@@ -1,0 +1,1178 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:288:16:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef void (* CBFunc_t)(unsigned int, unsigned int, uint32_t)[m[K’
+  288 | typedef void (*[01;31m[KCBFunc_t[m[K)  (unsigned user_gpio, unsigned level, uint32_t tick);
+      |                [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:351:16:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef void (* CBFunc_t)(int, unsigned int, unsigned int, uint32_t)[m[K’
+  351 | typedef void (*[01;36m[KCBFunc_t[m[K)
+      |                [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:290:16:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef void (* CBFuncEx_t)(unsigned int, unsigned int, uint32_t, void*)[m[K’
+  290 | typedef void (*[01;31m[KCBFuncEx_t[m[K)
+      |                [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:354:16:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef void (* CBFuncEx_t)(int, unsigned int, unsigned int, uint32_t, void*)[m[K’
+  354 | typedef void (*[01;36m[KCBFuncEx_t[m[K)
+      |                [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:360:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint pigpio_start(char*, char*)[m[K’
+  360 | int [01;31m[Kpigpio_start[m[K(char *addrStr, char *portStr);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:432:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint pigpio_start(const char*, const char*)[m[K’
+  432 | int [01;36m[Kpigpio_start[m[K(const char *addrStr, const char *portStr);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:379:6:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kvoid pigpio_stop()[m[K’
+  379 | void [01;31m[Kpigpio_stop[m[K(void);
+      |      [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:456:6:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid pigpio_stop(int)[m[K’
+  456 | void [01;36m[Kpigpio_stop[m[K(int pi);
+      |      [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:386:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_mode(unsigned int, unsigned int)[m[K’
+  386 | int [01;31m[Kset_mode[m[K(unsigned gpio, unsigned mode);
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:467:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_mode(int, unsigned int, unsigned int)[m[K’
+  467 | int [01;36m[Kset_mode[m[K(int pi, unsigned gpio, unsigned mode);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:401:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint get_mode(unsigned int)[m[K’
+  401 | int [01;31m[Kget_mode[m[K(unsigned gpio);
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:483:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint get_mode(int, unsigned int)[m[K’
+  483 | int [01;36m[Kget_mode[m[K(int pi, unsigned gpio);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:413:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_pull_up_down(unsigned int, unsigned int)[m[K’
+  413 | int [01;31m[Kset_pull_up_down[m[K(unsigned gpio, unsigned pud);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:496:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_pull_up_down(int, unsigned int, unsigned int)[m[K’
+  496 | int [01;36m[Kset_pull_up_down[m[K(int pi, unsigned gpio, unsigned pud);
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:427:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint gpio_read(unsigned int)[m[K’
+  427 | int [01;31m[Kgpio_read[m[K(unsigned gpio);
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:511:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint gpio_read(int, unsigned int)[m[K’
+  511 | int [01;36m[Kgpio_read[m[K(int pi, unsigned gpio);
+      |     [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:439:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint gpio_write(unsigned int, unsigned int)[m[K’
+  439 | int [01;31m[Kgpio_write[m[K(unsigned gpio, unsigned level);
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:524:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint gpio_write(int, unsigned int, unsigned int)[m[K’
+  524 | int [01;36m[Kgpio_write[m[K(int pi, unsigned gpio, unsigned level);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:457:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_PWM_dutycycle(unsigned int, unsigned int)[m[K’
+  457 | int [01;31m[Kset_PWM_dutycycle[m[K(unsigned user_gpio, unsigned dutycycle);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:543:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_PWM_dutycycle(int, unsigned int, unsigned int)[m[K’
+  543 | int [01;36m[Kset_PWM_dutycycle[m[K(int pi, unsigned user_gpio, unsigned dutycycle);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:475:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint get_PWM_dutycycle(unsigned int)[m[K’
+  475 | int [01;31m[Kget_PWM_dutycycle[m[K(unsigned user_gpio);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:562:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint get_PWM_dutycycle(int, unsigned int)[m[K’
+  562 | int [01;36m[Kget_PWM_dutycycle[m[K(int pi, unsigned user_gpio);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:496:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_PWM_range(unsigned int, unsigned int)[m[K’
+  496 | int [01;31m[Kset_PWM_range[m[K(unsigned user_gpio, unsigned range);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:585:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_PWM_range(int, unsigned int, unsigned int)[m[K’
+  585 | int [01;36m[Kset_PWM_range[m[K(int pi, unsigned user_gpio, unsigned range);
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:526:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint get_PWM_range(unsigned int)[m[K’
+  526 | int [01;31m[Kget_PWM_range[m[K(unsigned user_gpio);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:616:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint get_PWM_range(int, unsigned int)[m[K’
+  616 | int [01;36m[Kget_PWM_range[m[K(int pi, unsigned user_gpio);
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:542:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint get_PWM_real_range(unsigned int)[m[K’
+  542 | int [01;31m[Kget_PWM_real_range[m[K(unsigned user_gpio);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:633:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint get_PWM_real_range(int, unsigned int)[m[K’
+  633 | int [01;36m[Kget_PWM_real_range[m[K(int pi, unsigned user_gpio);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:562:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_PWM_frequency(unsigned int, unsigned int)[m[K’
+  562 | int [01;31m[Kset_PWM_frequency[m[K(unsigned user_gpio, unsigned frequency);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:654:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_PWM_frequency(int, unsigned int, unsigned int)[m[K’
+  654 | int [01;36m[Kset_PWM_frequency[m[K(int pi, unsigned user_gpio, unsigned frequency);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:611:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint get_PWM_frequency(unsigned int)[m[K’
+  611 | int [01;31m[Kget_PWM_frequency[m[K(unsigned user_gpio);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:704:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint get_PWM_frequency(int, unsigned int)[m[K’
+  704 | int [01;36m[Kget_PWM_frequency[m[K(int pi, unsigned user_gpio);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:633:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_servo_pulsewidth(unsigned int, unsigned int)[m[K’
+  633 | int [01;31m[Kset_servo_pulsewidth[m[K(unsigned user_gpio, unsigned pulsewidth);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:727:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_servo_pulsewidth(int, unsigned int, unsigned int)[m[K’
+  727 | int [01;36m[Kset_servo_pulsewidth[m[K(int pi, unsigned user_gpio, unsigned pulsewidth);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:682:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint get_servo_pulsewidth(unsigned int)[m[K’
+  682 | int [01;31m[Kget_servo_pulsewidth[m[K(unsigned user_gpio);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:777:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint get_servo_pulsewidth(int, unsigned int)[m[K’
+  777 | int [01;36m[Kget_servo_pulsewidth[m[K(int pi, unsigned user_gpio);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:694:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint notify_open()[m[K’
+  694 | int [01;31m[Knotify_open[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:790:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint notify_open(int)[m[K’
+  790 | int [01;36m[Knotify_open[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:716:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint notify_begin(unsigned int, uint32_t)[m[K’
+  716 | int [01;31m[Knotify_begin[m[K(unsigned handle, uint32_t bits);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:816:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint notify_begin(int, unsigned int, uint32_t)[m[K’
+  816 | int [01;36m[Knotify_begin[m[K(int pi, unsigned handle, uint32_t bits);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:762:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint notify_pause(unsigned int)[m[K’
+  762 | int [01;31m[Knotify_pause[m[K(unsigned handle);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:867:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint notify_pause(int, unsigned int)[m[K’
+  867 | int [01;36m[Knotify_pause[m[K(int pi, unsigned handle);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:777:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint notify_close(unsigned int)[m[K’
+  777 | int [01;31m[Knotify_close[m[K(unsigned handle);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:883:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint notify_close(int, unsigned int)[m[K’
+  883 | int [01;36m[Knotify_close[m[K(int pi, unsigned handle);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:790:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_watchdog(unsigned int, unsigned int)[m[K’
+  790 | int [01;31m[Kset_watchdog[m[K(unsigned user_gpio, unsigned timeout);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:897:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_watchdog(int, unsigned int, unsigned int)[m[K’
+  897 | int [01;36m[Kset_watchdog[m[K(int pi, unsigned user_gpio, unsigned timeout);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:815:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_glitch_filter(unsigned int, unsigned int)[m[K’
+  815 | int [01;31m[Kset_glitch_filter[m[K(unsigned user_gpio, unsigned steady);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:923:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_glitch_filter(int, unsigned int, unsigned int)[m[K’
+  923 | int [01;36m[Kset_glitch_filter[m[K(int pi, unsigned user_gpio, unsigned steady);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:841:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_noise_filter(unsigned int, unsigned int, unsigned int)[m[K’
+  841 | int [01;31m[Kset_noise_filter[m[K(unsigned user_gpio, unsigned steady, unsigned active);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:951:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_noise_filter(int, unsigned int, unsigned int, unsigned int)[m[K’
+  951 | int [01;36m[Kset_noise_filter[m[K(
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:870:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kuint32_t read_bank_1()[m[K’
+  870 | uint32_t [01;31m[Kread_bank_1[m[K(void);
+      |          [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:982:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kuint32_t read_bank_1(int)[m[K’
+  982 | uint32_t [01;36m[Kread_bank_1[m[K(int pi);
+      |          [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:879:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kuint32_t read_bank_2()[m[K’
+  879 | uint32_t [01;31m[Kread_bank_2[m[K(void);
+      |          [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:995:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kuint32_t read_bank_2(int)[m[K’
+  995 | uint32_t [01;36m[Kread_bank_2[m[K(int pi);
+      |          [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:888:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint clear_bank_1(uint32_t)[m[K’
+  888 | int [01;31m[Kclear_bank_1[m[K(uint32_t bits);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1008:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint clear_bank_1(int, uint32_t)[m[K’
+ 1008 | int [01;36m[Kclear_bank_1[m[K(int pi, uint32_t bits);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:904:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint clear_bank_2(uint32_t)[m[K’
+  904 | int [01;31m[Kclear_bank_2[m[K(uint32_t bits);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1025:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint clear_bank_2(int, uint32_t)[m[K’
+ 1025 | int [01;36m[Kclear_bank_2[m[K(int pi, uint32_t bits);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:920:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_bank_1(uint32_t)[m[K’
+  920 | int [01;31m[Kset_bank_1[m[K(uint32_t bits);
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1042:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_bank_1(int, uint32_t)[m[K’
+ 1042 | int [01;36m[Kset_bank_1[m[K(int pi, uint32_t bits);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:936:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint set_bank_2(uint32_t)[m[K’
+  936 | int [01;31m[Kset_bank_2[m[K(uint32_t bits);
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1059:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint set_bank_2(int, uint32_t)[m[K’
+ 1059 | int [01;36m[Kset_bank_2[m[K(int pi, uint32_t bits);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:953:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint hardware_clock(unsigned int, unsigned int)[m[K’
+  953 | int [01;31m[Khardware_clock[m[K(unsigned gpio, unsigned clkfreq);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1077:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint hardware_clock(int, unsigned int, unsigned int)[m[K’
+ 1077 | int [01;36m[Khardware_clock[m[K(int pi, unsigned gpio, unsigned clkfreq);
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:992:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint hardware_PWM(unsigned int, unsigned int, uint32_t)[m[K’
+  992 | int [01;31m[Khardware_PWM[m[K(unsigned gpio, unsigned PWMfreq, uint32_t PWMduty);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1117:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint hardware_PWM(int, unsigned int, unsigned int, uint32_t)[m[K’
+ 1117 | int [01;36m[Khardware_PWM[m[K(int pi, unsigned gpio, unsigned PWMfreq, uint32_t PWMduty);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1036:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kuint32_t get_current_tick()[m[K’
+ 1036 | uint32_t [01;31m[Kget_current_tick[m[K(void);
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1172:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kuint32_t get_current_tick(int)[m[K’
+ 1172 | uint32_t [01;36m[Kget_current_tick[m[K(int pi);
+      |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1048:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kuint32_t get_hardware_revision()[m[K’
+ 1048 | uint32_t [01;31m[Kget_hardware_revision[m[K(void);
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1188:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kuint32_t get_hardware_revision(int)[m[K’
+ 1188 | uint32_t [01;36m[Kget_hardware_revision[m[K(int pi);
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1071:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kuint32_t get_pigpio_version()[m[K’
+ 1071 | uint32_t [01;31m[Kget_pigpio_version[m[K(void);
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1215:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kuint32_t get_pigpio_version(int)[m[K’
+ 1215 | uint32_t [01;36m[Kget_pigpio_version[m[K(int pi);
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1078:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_clear()[m[K’
+ 1078 | int [01;31m[Kwave_clear[m[K(void);
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1226:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_clear(int)[m[K’
+ 1226 | int [01;36m[Kwave_clear[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1087:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_add_new()[m[K’
+ 1087 | int [01;31m[Kwave_add_new[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1239:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_add_new(int)[m[K’
+ 1239 | int [01;36m[Kwave_add_new[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1097:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_add_generic(unsigned int, gpioPulse_t*)[m[K’
+ 1097 | int [01;31m[Kwave_add_generic[m[K(unsigned numPulses, gpioPulse_t *pulses);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1253:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_add_generic(int, unsigned int, gpioPulse_t*)[m[K’
+ 1253 | int [01;36m[Kwave_add_generic[m[K(int pi, unsigned numPulses, gpioPulse_t *pulses);
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1120:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_add_serial(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, char*)[m[K’
+ 1120 | int [01;31m[Kwave_add_serial[m[K
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1277:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_add_serial(int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, char*)[m[K’
+ 1277 | int [01;36m[Kwave_add_serial[m[K
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1161:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_create()[m[K’
+ 1161 | int [01;31m[Kwave_create[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1319:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_create(int)[m[K’
+ 1319 | int [01;36m[Kwave_create[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1216:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_delete(unsigned int)[m[K’
+ 1216 | int [01;31m[Kwave_delete[m[K(unsigned wave_id);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1421:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_delete(int, unsigned int)[m[K’
+ 1421 | int [01;36m[Kwave_delete[m[K(int pi, unsigned wave_id);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1239:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_send_once(unsigned int)[m[K’
+ 1239 | int [01;31m[Kwave_send_once[m[K(unsigned wave_id);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1446:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_send_once(int, unsigned int)[m[K’
+ 1446 | int [01;36m[Kwave_send_once[m[K(int pi, unsigned wave_id);
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1255:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_send_repeat(unsigned int)[m[K’
+ 1255 | int [01;31m[Kwave_send_repeat[m[K(unsigned wave_id);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1464:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_send_repeat(int, unsigned int)[m[K’
+ 1464 | int [01;36m[Kwave_send_repeat[m[K(int pi, unsigned wave_id);
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1272:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_chain(char*, unsigned int)[m[K’
+ 1272 | int [01;31m[Kwave_chain[m[K(char *buf, unsigned bufSize);
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1514:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_chain(int, char*, unsigned int)[m[K’
+ 1514 | int [01;36m[Kwave_chain[m[K(int pi, char *buf, unsigned bufSize);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1366:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_tx_busy()[m[K’
+ 1366 | int [01;31m[Kwave_tx_busy[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1626:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_tx_busy(int)[m[K’
+ 1626 | int [01;36m[Kwave_tx_busy[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1375:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_tx_stop()[m[K’
+ 1375 | int [01;31m[Kwave_tx_stop[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1639:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_tx_stop(int)[m[K’
+ 1639 | int [01;36m[Kwave_tx_stop[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1385:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_get_micros()[m[K’
+ 1385 | int [01;31m[Kwave_get_micros[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1653:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_get_micros(int)[m[K’
+ 1653 | int [01;36m[Kwave_get_micros[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1392:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_get_high_micros()[m[K’
+ 1392 | int [01;31m[Kwave_get_high_micros[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1664:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_get_high_micros(int)[m[K’
+ 1664 | int [01;36m[Kwave_get_high_micros[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1399:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_get_max_micros()[m[K’
+ 1399 | int [01;31m[Kwave_get_max_micros[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1675:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_get_max_micros(int)[m[K’
+ 1675 | int [01;36m[Kwave_get_max_micros[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1406:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_get_pulses()[m[K’
+ 1406 | int [01;31m[Kwave_get_pulses[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1686:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_get_pulses(int)[m[K’
+ 1686 | int [01;36m[Kwave_get_pulses[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1412:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_get_high_pulses()[m[K’
+ 1412 | int [01;31m[Kwave_get_high_pulses[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1696:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_get_high_pulses(int)[m[K’
+ 1696 | int [01;36m[Kwave_get_high_pulses[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1419:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_get_max_pulses()[m[K’
+ 1419 | int [01;31m[Kwave_get_max_pulses[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1707:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_get_max_pulses(int)[m[K’
+ 1707 | int [01;36m[Kwave_get_max_pulses[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1425:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_get_cbs()[m[K’
+ 1425 | int [01;31m[Kwave_get_cbs[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1717:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_get_cbs(int)[m[K’
+ 1717 | int [01;36m[Kwave_get_cbs[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1432:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_get_high_cbs()[m[K’
+ 1432 | int [01;31m[Kwave_get_high_cbs[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1728:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_get_high_cbs(int)[m[K’
+ 1728 | int [01;36m[Kwave_get_high_cbs[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1439:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wave_get_max_cbs()[m[K’
+ 1439 | int [01;31m[Kwave_get_max_cbs[m[K(void);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1739:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wave_get_max_cbs(int)[m[K’
+ 1739 | int [01;36m[Kwave_get_max_cbs[m[K(int pi);
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1446:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint gpio_trigger(unsigned int, unsigned int, unsigned int)[m[K’
+ 1446 | int [01;31m[Kgpio_trigger[m[K(unsigned user_gpio, unsigned pulseLen, unsigned level);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1750:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint gpio_trigger(int, unsigned int, unsigned int, unsigned int)[m[K’
+ 1750 | int [01;36m[Kgpio_trigger[m[K(int pi, unsigned user_gpio, unsigned pulseLen, unsigned level);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1462:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint store_script(char*)[m[K’
+ 1462 | int [01;31m[Kstore_script[m[K(char *script);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1767:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint store_script(int, char*)[m[K’
+ 1767 | int [01;36m[Kstore_script[m[K(int pi, char *script);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1477:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint run_script(unsigned int, unsigned int, uint32_t*)[m[K’
+ 1477 | int [01;31m[Krun_script[m[K(unsigned script_id, unsigned numPar, uint32_t *param);
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1783:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint run_script(int, unsigned int, unsigned int, uint32_t*)[m[K’
+ 1783 | int [01;36m[Krun_script[m[K(int pi, unsigned script_id, unsigned numPar, uint32_t *param);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1495:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint script_status(unsigned int, uint32_t*)[m[K’
+ 1495 | int [01;31m[Kscript_status[m[K(unsigned script_id, uint32_t *param);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1823:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint script_status(int, unsigned int, uint32_t*)[m[K’
+ 1823 | int [01;36m[Kscript_status[m[K(int pi, unsigned script_id, uint32_t *param);
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1522:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint stop_script(unsigned int)[m[K’
+ 1522 | int [01;31m[Kstop_script[m[K(unsigned script_id);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1851:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint stop_script(int, unsigned int)[m[K’
+ 1851 | int [01;36m[Kstop_script[m[K(int pi, unsigned script_id);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1534:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint delete_script(unsigned int)[m[K’
+ 1534 | int [01;31m[Kdelete_script[m[K(unsigned script_id);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1864:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint delete_script(int, unsigned int)[m[K’
+ 1864 | int [01;36m[Kdelete_script[m[K(int pi, unsigned script_id);
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1546:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint bb_serial_read_open(unsigned int, unsigned int, unsigned int)[m[K’
+ 1546 | int [01;31m[Kbb_serial_read_open[m[K(unsigned user_gpio, unsigned baud, unsigned data_bits);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1877:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint bb_serial_read_open(int, unsigned int, unsigned int, unsigned int)[m[K’
+ 1877 | int [01;36m[Kbb_serial_read_open[m[K(int pi, unsigned user_gpio, unsigned baud, unsigned data_bits);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1567:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint bb_serial_read(unsigned int, void*, size_t)[m[K’
+ 1567 | int [01;31m[Kbb_serial_read[m[K(unsigned user_gpio, void *buf, size_t bufSize);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1899:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint bb_serial_read(int, unsigned int, void*, size_t)[m[K’
+ 1899 | int [01;36m[Kbb_serial_read[m[K(int pi, unsigned user_gpio, void *buf, size_t bufSize);
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1590:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint bb_serial_read_close(unsigned int)[m[K’
+ 1590 | int [01;31m[Kbb_serial_read_close[m[K(unsigned user_gpio);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1923:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint bb_serial_read_close(int, unsigned int)[m[K’
+ 1923 | int [01;36m[Kbb_serial_read_close[m[K(int pi, unsigned user_gpio);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1602:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint bb_serial_invert(unsigned int, unsigned int)[m[K’
+ 1602 | int [01;31m[Kbb_serial_invert[m[K(unsigned user_gpio, unsigned invert);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1936:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint bb_serial_invert(int, unsigned int, unsigned int)[m[K’
+ 1936 | int [01;36m[Kbb_serial_invert[m[K(int pi, unsigned user_gpio, unsigned invert);
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1615:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_open(unsigned int, unsigned int, unsigned int)[m[K’
+ 1615 | int [01;31m[Ki2c_open[m[K(unsigned i2c_bus, unsigned i2c_addr, unsigned i2c_flags);
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1950:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_open(int, unsigned int, unsigned int, unsigned int)[m[K’
+ 1950 | int [01;36m[Ki2c_open[m[K(int pi, unsigned i2c_bus, unsigned i2c_addr, unsigned i2c_flags);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1657:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_close(unsigned int)[m[K’
+ 1657 | int [01;31m[Ki2c_close[m[K(unsigned handle);
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:1993:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_close(int, unsigned int)[m[K’
+ 1993 | int [01;36m[Ki2c_close[m[K(int pi, unsigned handle);
+      |     [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1669:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_write_quick(unsigned int, unsigned int)[m[K’
+ 1669 | int [01;31m[Ki2c_write_quick[m[K(unsigned handle, unsigned bit);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2006:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_write_quick(int, unsigned int, unsigned int)[m[K’
+ 2006 | int [01;36m[Ki2c_write_quick[m[K(int pi, unsigned handle, unsigned bit);
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1689:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_write_byte(unsigned int, unsigned int)[m[K’
+ 1689 | int [01;31m[Ki2c_write_byte[m[K(unsigned handle, unsigned bVal);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2027:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_write_byte(int, unsigned int, unsigned int)[m[K’
+ 2027 | int [01;36m[Ki2c_write_byte[m[K(int pi, unsigned handle, unsigned bVal);
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1708:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_read_byte(unsigned int)[m[K’
+ 1708 | int [01;31m[Ki2c_read_byte[m[K(unsigned handle);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2047:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_read_byte(int, unsigned int)[m[K’
+ 2047 | int [01;36m[Ki2c_read_byte[m[K(int pi, unsigned handle);
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1726:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_write_byte_data(unsigned int, unsigned int, unsigned int)[m[K’
+ 1726 | int [01;31m[Ki2c_write_byte_data[m[K(unsigned handle, unsigned i2c_reg, unsigned bVal);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2066:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_write_byte_data(int, unsigned int, unsigned int, unsigned int)[m[K’
+ 2066 | int [01;36m[Ki2c_write_byte_data[m[K(
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1747:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_write_word_data(unsigned int, unsigned int, unsigned int)[m[K’
+ 1747 | int [01;31m[Ki2c_write_word_data[m[K(unsigned handle, unsigned i2c_reg, unsigned wVal);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2089:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_write_word_data(int, unsigned int, unsigned int, unsigned int)[m[K’
+ 2089 | int [01;36m[Ki2c_write_word_data[m[K(
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1768:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_read_byte_data(unsigned int, unsigned int)[m[K’
+ 1768 | int [01;31m[Ki2c_read_byte_data[m[K(unsigned handle, unsigned i2c_reg);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2112:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_read_byte_data(int, unsigned int, unsigned int)[m[K’
+ 2112 | int [01;36m[Ki2c_read_byte_data[m[K(int pi, unsigned handle, unsigned i2c_reg);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1788:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_read_word_data(unsigned int, unsigned int)[m[K’
+ 1788 | int [01;31m[Ki2c_read_word_data[m[K(unsigned handle, unsigned i2c_reg);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2133:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_read_word_data(int, unsigned int, unsigned int)[m[K’
+ 2133 | int [01;36m[Ki2c_read_word_data[m[K(int pi, unsigned handle, unsigned i2c_reg);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1808:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_process_call(unsigned int, unsigned int, unsigned int)[m[K’
+ 1808 | int [01;31m[Ki2c_process_call[m[K(unsigned handle, unsigned i2c_reg, unsigned wVal);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2155:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_process_call(int, unsigned int, unsigned int, unsigned int)[m[K’
+ 2155 | int [01;36m[Ki2c_process_call[m[K(int pi, unsigned handle, unsigned i2c_reg, unsigned wVal);
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1830:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_write_block_data(unsigned int, unsigned int, char*, unsigned int)[m[K’
+ 1830 | int [01;31m[Ki2c_write_block_data[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2178:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_write_block_data(int, unsigned int, unsigned int, char*, unsigned int)[m[K’
+ 2178 | int [01;36m[Ki2c_write_block_data[m[K(
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1853:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_read_block_data(unsigned int, unsigned int, char*)[m[K’
+ 1853 | int [01;31m[Ki2c_read_block_data[m[K(unsigned handle, unsigned i2c_reg, char *buf);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2203:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_read_block_data(int, unsigned int, unsigned int, char*)[m[K’
+ 2203 | int [01;36m[Ki2c_read_block_data[m[K(int pi, unsigned handle, unsigned i2c_reg, char *buf);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1877:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_block_process_call(unsigned int, unsigned int, char*, unsigned int)[m[K’
+ 1877 | int [01;31m[Ki2c_block_process_call[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2228:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_block_process_call(int, unsigned int, unsigned int, char*, unsigned int)[m[K’
+ 2228 | int [01;36m[Ki2c_block_process_call[m[K(
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1907:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_read_i2c_block_data(unsigned int, unsigned int, char*, unsigned int)[m[K’
+ 1907 | int [01;31m[Ki2c_read_i2c_block_data[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2259:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_read_i2c_block_data(int, unsigned int, unsigned int, char*, unsigned int)[m[K’
+ 2259 | int [01;36m[Ki2c_read_i2c_block_data[m[K(
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1931:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_write_i2c_block_data(unsigned int, unsigned int, char*, unsigned int)[m[K’
+ 1931 | int [01;31m[Ki2c_write_i2c_block_data[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2284:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_write_i2c_block_data(int, unsigned int, unsigned int, char*, unsigned int)[m[K’
+ 2284 | int [01;36m[Ki2c_write_i2c_block_data[m[K(
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1953:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_read_device(unsigned int, char*, unsigned int)[m[K’
+ 1953 | int [01;31m[Ki2c_read_device[m[K(unsigned handle, char *buf, unsigned count);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2307:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_read_device(int, unsigned int, char*, unsigned int)[m[K’
+ 2307 | int [01;36m[Ki2c_read_device[m[K(int pi, unsigned handle, char *buf, unsigned count);
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1968:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_write_device(unsigned int, char*, unsigned int)[m[K’
+ 1968 | int [01;31m[Ki2c_write_device[m[K(unsigned handle, char *buf, unsigned count);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2327:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_write_device(int, unsigned int, char*, unsigned int)[m[K’
+ 2327 | int [01;36m[Ki2c_write_device[m[K(int pi, unsigned handle, char *buf, unsigned count);
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:1983:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint i2c_zip(unsigned int, char*, unsigned int, char*, unsigned int)[m[K’
+ 1983 | int [01;31m[Ki2c_zip[m[K(
+      |     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2347:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint i2c_zip(int, unsigned int, char*, unsigned int, char*, unsigned int)[m[K’
+ 2347 | int [01;36m[Ki2c_zip[m[K(
+      |     [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2044:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint bb_i2c_open(unsigned int, unsigned int, unsigned int)[m[K’
+ 2044 | int [01;31m[Kbb_i2c_open[m[K(unsigned SDA, unsigned SCL, unsigned baud);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2410:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint bb_i2c_open(int, unsigned int, unsigned int, unsigned int)[m[K’
+ 2410 | int [01;36m[Kbb_i2c_open[m[K(int pi, unsigned SDA, unsigned SCL, unsigned baud);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2073:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint bb_i2c_close(unsigned int)[m[K’
+ 2073 | int [01;31m[Kbb_i2c_close[m[K(unsigned SDA);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2440:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint bb_i2c_close(int, unsigned int)[m[K’
+ 2440 | int [01;36m[Kbb_i2c_close[m[K(int pi, unsigned SDA);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2086:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint bb_i2c_zip(unsigned int, char*, unsigned int, char*, unsigned int)[m[K’
+ 2086 | int [01;31m[Kbb_i2c_zip[m[K(
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2454:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint bb_i2c_zip(int, unsigned int, char*, unsigned int, char*, unsigned int)[m[K’
+ 2454 | int [01;36m[Kbb_i2c_zip[m[K(
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2157:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint spi_open(unsigned int, unsigned int, unsigned int)[m[K’
+ 2157 | int [01;31m[Kspi_open[m[K(unsigned spi_channel, unsigned baud, unsigned spi_flags);
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2684:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint spi_open(int, unsigned int, unsigned int, unsigned int)[m[K’
+ 2684 | int [01;36m[Kspi_open[m[K(int pi, unsigned spi_channel, unsigned baud, unsigned spi_flags);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2249:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint spi_close(unsigned int)[m[K’
+ 2249 | int [01;31m[Kspi_close[m[K(unsigned handle);
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2777:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint spi_close(int, unsigned int)[m[K’
+ 2777 | int [01;36m[Kspi_close[m[K(int pi, unsigned handle);
+      |     [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2261:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint spi_read(unsigned int, char*, unsigned int)[m[K’
+ 2261 | int [01;31m[Kspi_read[m[K(unsigned handle, char *buf, unsigned count);
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2790:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint spi_read(int, unsigned int, char*, unsigned int)[m[K’
+ 2790 | int [01;36m[Kspi_read[m[K(int pi, unsigned handle, char *buf, unsigned count);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2277:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint spi_write(unsigned int, char*, unsigned int)[m[K’
+ 2277 | int [01;31m[Kspi_write[m[K(unsigned handle, char *buf, unsigned count);
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2807:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint spi_write(int, unsigned int, char*, unsigned int)[m[K’
+ 2807 | int [01;36m[Kspi_write[m[K(int pi, unsigned handle, char *buf, unsigned count);
+      |     [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2293:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint spi_xfer(unsigned int, char*, char*, unsigned int)[m[K’
+ 2293 | int [01;31m[Kspi_xfer[m[K(unsigned handle, char *txBuf, char *rxBuf, unsigned count);
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2824:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint spi_xfer(int, unsigned int, char*, char*, unsigned int)[m[K’
+ 2824 | int [01;36m[Kspi_xfer[m[K(
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2311:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint serial_open(char*, unsigned int, unsigned int)[m[K’
+ 2311 | int [01;31m[Kserial_open[m[K(char *ser_tty, unsigned baud, unsigned ser_flags);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2844:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint serial_open(int, char*, unsigned int, unsigned int)[m[K’
+ 2844 | int [01;36m[Kserial_open[m[K(int pi, char *ser_tty, unsigned baud, unsigned ser_flags);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2334:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint serial_close(unsigned int)[m[K’
+ 2334 | int [01;31m[Kserial_close[m[K(unsigned handle);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2869:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint serial_close(int, unsigned int)[m[K’
+ 2869 | int [01;36m[Kserial_close[m[K(int pi, unsigned handle);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2346:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint serial_write_byte(unsigned int, unsigned int)[m[K’
+ 2346 | int [01;31m[Kserial_write_byte[m[K(unsigned handle, unsigned bVal);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2882:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint serial_write_byte(int, unsigned int, unsigned int)[m[K’
+ 2882 | int [01;36m[Kserial_write_byte[m[K(int pi, unsigned handle, unsigned bVal);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2359:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint serial_read_byte(unsigned int)[m[K’
+ 2359 | int [01;31m[Kserial_read_byte[m[K(unsigned handle);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2896:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint serial_read_byte(int, unsigned int)[m[K’
+ 2896 | int [01;36m[Kserial_read_byte[m[K(int pi, unsigned handle);
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2374:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint serial_write(unsigned int, char*, unsigned int)[m[K’
+ 2374 | int [01;31m[Kserial_write[m[K(unsigned handle, char *buf, unsigned count);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2912:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint serial_write(int, unsigned int, char*, unsigned int)[m[K’
+ 2912 | int [01;36m[Kserial_write[m[K(int pi, unsigned handle, char *buf, unsigned count);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2390:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint serial_read(unsigned int, char*, unsigned int)[m[K’
+ 2390 | int [01;31m[Kserial_read[m[K(unsigned handle, char *buf, unsigned count);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2929:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint serial_read(int, unsigned int, char*, unsigned int)[m[K’
+ 2929 | int [01;36m[Kserial_read[m[K(int pi, unsigned handle, char *buf, unsigned count);
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2408:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint serial_data_available(unsigned int)[m[K’
+ 2408 | int [01;31m[Kserial_data_available[m[K(unsigned handle);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2948:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint serial_data_available(int, unsigned int)[m[K’
+ 2948 | int [01;36m[Kserial_data_available[m[K(int pi, unsigned handle);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2422:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint custom_1(unsigned int, unsigned int, char*, unsigned int)[m[K’
+ 2422 | int [01;31m[Kcustom_1[m[K(unsigned arg1, unsigned arg2, char *argx, unsigned argc);
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2963:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint custom_1(int, unsigned int, unsigned int, char*, unsigned int)[m[K’
+ 2963 | int [01;36m[Kcustom_1[m[K(int pi, unsigned arg1, unsigned arg2, char *argx, unsigned argc);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2440:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint custom_2(unsigned int, char*, unsigned int, char*, unsigned int)[m[K’
+ 2440 | int [01;31m[Kcustom_2[m[K(unsigned arg1, char *argx, unsigned argc,
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:2982:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint custom_2(int, unsigned int, char*, unsigned int, char*, unsigned int)[m[K’
+ 2982 | int [01;36m[Kcustom_2[m[K(int pi, unsigned arg1, char *argx, unsigned argc,
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2464:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint callback(unsigned int, unsigned int, CBFunc_t)[m[K’
+ 2464 | int [01;31m[Kcallback[m[K(unsigned user_gpio, unsigned edge, CBFunc_t f);
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:3370:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint callback(int, unsigned int, unsigned int, CBFunc_t)[m[K’
+ 3370 | int [01;36m[Kcallback[m[K(int pi, unsigned user_gpio, unsigned edge, CBFunc_t f);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2496:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint callback_ex(unsigned int, unsigned int, CBFuncEx_t, void*)[m[K’
+ 2496 | int [01;31m[Kcallback_ex[m[K
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:3434:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint callback_ex(int, unsigned int, unsigned int, CBFuncEx_t, void*)[m[K’
+ 3434 | int [01;36m[Kcallback_ex[m[K
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2544:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint wait_for_edge(unsigned int, unsigned int, double)[m[K’
+ 2544 | int [01;31m[Kwait_for_edge[m[K(unsigned user_gpio, unsigned edge, double timeout);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:3483:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint wait_for_edge(int, unsigned int, unsigned int, double)[m[K’
+ 3483 | int [01;36m[Kwait_for_edge[m[K(int pi, unsigned user_gpio, unsigned edge, double timeout);
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2976:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_bad_send[m[K’ conflicts with a previous declaration
+ 2976 |    pigif_bad_send           = -[01;31m[K2000[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4366:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_bad_send[m[K’
+ 4366 |    [01;36m[Kpigif_bad_send[m[K           = -2000,
+      |    [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2977:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_bad_recv[m[K’ conflicts with a previous declaration
+ 2977 |    pigif_bad_recv           = -[01;31m[K2001[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4367:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_bad_recv[m[K’
+ 4367 |    [01;36m[Kpigif_bad_recv[m[K           = -2001,
+      |    [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2978:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_bad_getaddrinfo[m[K’ conflicts with a previous declaration
+ 2978 |    pigif_bad_getaddrinfo    = -[01;31m[K2002[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4368:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_bad_getaddrinfo[m[K’
+ 4368 |    [01;36m[Kpigif_bad_getaddrinfo[m[K    = -2002,
+      |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2979:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_bad_connect[m[K’ conflicts with a previous declaration
+ 2979 |    pigif_bad_connect        = -[01;31m[K2003[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4369:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_bad_connect[m[K’
+ 4369 |    [01;36m[Kpigif_bad_connect[m[K        = -2003,
+      |    [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2980:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_bad_socket[m[K’ conflicts with a previous declaration
+ 2980 |    pigif_bad_socket         = -[01;31m[K2004[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4370:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_bad_socket[m[K’
+ 4370 |    [01;36m[Kpigif_bad_socket[m[K         = -2004,
+      |    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2981:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_bad_noib[m[K’ conflicts with a previous declaration
+ 2981 |    pigif_bad_noib           = -[01;31m[K2005[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4371:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_bad_noib[m[K’
+ 4371 |    [01;36m[Kpigif_bad_noib[m[K           = -2005,
+      |    [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2982:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_duplicate_callback[m[K’ conflicts with a previous declaration
+ 2982 |    pigif_duplicate_callback = -[01;31m[K2006[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4372:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_duplicate_callback[m[K’
+ 4372 |    [01;36m[Kpigif_duplicate_callback[m[K = -2006,
+      |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2983:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_bad_malloc[m[K’ conflicts with a previous declaration
+ 2983 |    pigif_bad_malloc         = -[01;31m[K2007[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4373:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_bad_malloc[m[K’
+ 4373 |    [01;36m[Kpigif_bad_malloc[m[K         = -2007,
+      |    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2984:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_bad_callback[m[K’ conflicts with a previous declaration
+ 2984 |    pigif_bad_callback       = -[01;31m[K2008[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4374:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_bad_callback[m[K’
+ 4374 |    [01;36m[Kpigif_bad_callback[m[K       = -2008,
+      |    [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2985:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_notify_failed[m[K’ conflicts with a previous declaration
+ 2985 |    pigif_notify_failed      = -[01;31m[K2009[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4375:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_notify_failed[m[K’
+ 4375 |    [01;36m[Kpigif_notify_failed[m[K      = -2009,
+      |    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2986:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpigif_callback_not_found[m[K’ conflicts with a previous declaration
+ 2986 |    pigif_callback_not_found = -[01;31m[K2010[m[K,
+      |                                [01;31m[K^~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4376:4:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KpigifError_t pigif_callback_not_found[m[K’
+ 4376 |    [01;36m[Kpigif_callback_not_found[m[K = -2010,
+      |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:2987:3:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef enum pigifError_t pigifError_t[m[K’
+ 2987 | } [01;31m[KpigifError_t[m[K;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:4379:3:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef enum pigifError_t pigifError_t[m[K’
+ 4379 | } [01;36m[KpigifError_t[m[K;
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:20:43:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[Kpigpio_start(std::nullptr_t, std::nullptr_t)[m[K’ is ambiguous
+   20 |     int pi = pigpio_start(nullptr, nullptr[01;31m[K)[m[K;
+      |                                           [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if2.h:432:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint pigpio_start(const char*, const char*)[m[K’
+  432 | int [01;36m[Kpigpio_start[m[K(const char *addrStr, const char *portStr);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:2[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:360:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint pigpio_start(char*, char*)[m[K’
+  360 | int [01;36m[Kpigpio_start[m[K(char *addrStr, char *portStr);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/bb3.dir/build.make:63: CMakeFiles/bb3.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

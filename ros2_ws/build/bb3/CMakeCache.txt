@@ -397,6 +397,27 @@ libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cma
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
 
+//The directory containing a CMake configuration file for pigpio.
+pigpio_DIR:PATH=pigpio_DIR-NOTFOUND
+
+//Path to a file.
+pigpio_INCLUDE_DIR:PATH=/usr/local/include
+
+//Path to a library.
+pigpio_LIBRARY:FILEPATH=/usr/local/lib/libpigpio.so
+
+//The directory containing a CMake configuration file for pigpiod.
+pigpiod_DIR:PATH=pigpiod_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for pigpiod_if2.
+pigpiod_if2_DIR:PATH=pigpiod_if2_DIR-NOTFOUND
+
+//Path to a library.
+pigpiod_if2_LIBRARY:FILEPATH=/usr/local/lib/libpigpiod_if2.so
+
+//Path to a library.
+pigpiod_if_LIBRARY:FILEPATH=/usr/local/lib/libpigpiod_if.so
+
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 
@@ -663,6 +684,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcryp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.8.5(3)]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding pigpio
+FIND_PACKAGE_MESSAGE_DETAILS_pigpio:INTERNAL=[/usr/local/include][/usr/local/lib/libpigpio.so][/usr/local/lib/libpigpiod_if.so][/usr/local/lib/libpigpiod_if2.so][v()]
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
 OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_INCLUDE_DIR

@@ -1,0 +1,39 @@
+[0.013s] Invoking command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3 -- -j8 -l8
+[0.039s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.058s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.228s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.471s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.474s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.631s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.677s] -- Found pigpio: /usr/local/include  
+[0.757s] -- Configuring done
+[0.786s] -- Generating done
+[0.790s] -- Build files have been written to: /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3
+[0.831s] [35m[1mScanning dependencies of target bb3[0m
+[0.861s] [ 50%] [32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o[0m
+[5.401s] [100%] [32m[1mLinking CXX executable bb3[0m
+[5.673s] [100%] Built target bb3
+[5.685s] Invoked command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3 -- -j8 -l8
+[5.715s] Invoking command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3
+[5.723s] -- Install configuration: ""
+[5.723s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/lib/bb3/bb3
+[5.726s] -- Set runtime path of "/home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/lib/bb3/bb3" to ""
+[5.726s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/ament_index/resource_index/package_run_dependencies/bb3
+[5.726s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/ament_index/resource_index/parent_prefix_path/bb3
+[5.727s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/environment/ament_prefix_path.sh
+[5.727s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/environment/ament_prefix_path.dsv
+[5.727s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/environment/path.sh
+[5.727s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/environment/path.dsv
+[5.728s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/local_setup.bash
+[5.728s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/local_setup.sh
+[5.728s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/local_setup.zsh
+[5.728s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/local_setup.dsv
+[5.728s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/package.dsv
+[5.729s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/ament_index/resource_index/packages/bb3
+[5.729s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/cmake/bb3Config.cmake
+[5.729s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/cmake/bb3Config-version.cmake
+[5.729s] -- Installing: /home/jesuschrist/projects/beepboop3000/ros2_ws/install/bb3/share/bb3/package.xml
+[5.732s] Invoked command in '/home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jesuschrist/projects/beepboop3000/ros2_ws/build/bb3

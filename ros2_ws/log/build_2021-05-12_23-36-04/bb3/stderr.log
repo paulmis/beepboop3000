@@ -1,0 +1,139 @@
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:[m[K In constructor ‘[01m[KMotor::Motor(int, int, int, int)[m[K’:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:17:36:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint set_mode(unsigned int, unsigned int)[m[K’
+   17 |   set_mode(pi, gpio_high, PI_OUTPUT[01;31m[K)[m[K;
+      |                                    [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:386:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  386 | int [01;36m[Kset_mode[m[K(unsigned gpio, unsigned mode);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:18:35:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint set_mode(unsigned int, unsigned int)[m[K’
+   18 |   set_mode(pi, gpio_low, PI_OUTPUT[01;31m[K)[m[K;
+      |                                   [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:386:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  386 | int [01;36m[Kset_mode[m[K(unsigned gpio, unsigned mode);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:19:35:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint set_mode(unsigned int, unsigned int)[m[K’
+   19 |   set_mode(pi, gpio_pwm, PI_OUTPUT[01;31m[K)[m[K;
+      |                                   [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:386:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  386 | int [01;36m[Kset_mode[m[K(unsigned gpio, unsigned mode);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:[m[K In member function ‘[01m[Kvoid Motor::set_off()[m[K’:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:30:29:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint gpio_write(unsigned int, unsigned int)[m[K’
+   30 |   gpio_write(pi, gpio_low, 0[01;31m[K)[m[K;
+      |                             [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:439:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  439 | int [01;36m[Kgpio_write[m[K(unsigned gpio, unsigned level);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:31:30:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint gpio_write(unsigned int, unsigned int)[m[K’
+   31 |   gpio_write(pi, gpio_high, 0[01;31m[K)[m[K;
+      |                              [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:439:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  439 | int [01;36m[Kgpio_write[m[K(unsigned gpio, unsigned level);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:32:36:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint set_PWM_dutycycle(unsigned int, unsigned int)[m[K’
+   32 |   set_PWM_dutycycle(pi, gpio_pwm, 0[01;31m[K)[m[K;
+      |                                    [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:457:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  457 | int [01;36m[Kset_PWM_dutycycle[m[K(unsigned user_gpio, unsigned dutycycle);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:[m[K In member function ‘[01m[Kvoid Motor::set_high(int)[m[K’:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:45:29:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint gpio_write(unsigned int, unsigned int)[m[K’
+   45 |   gpio_write(pi, gpio_low, 0[01;31m[K)[m[K;
+      |                             [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:439:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  439 | int [01;36m[Kgpio_write[m[K(unsigned gpio, unsigned level);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:46:30:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint gpio_write(unsigned int, unsigned int)[m[K’
+   46 |   gpio_write(pi, gpio_high, 1[01;31m[K)[m[K;
+      |                              [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:439:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  439 | int [01;36m[Kgpio_write[m[K(unsigned gpio, unsigned level);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:47:38:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint set_PWM_dutycycle(unsigned int, unsigned int)[m[K’
+   47 |   set_PWM_dutycycle(pi, gpio_pwm, pwm[01;31m[K)[m[K;
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:457:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  457 | int [01;36m[Kset_PWM_dutycycle[m[K(unsigned user_gpio, unsigned dutycycle);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:[m[K In member function ‘[01m[Kvoid Motor::set_low(int)[m[K’:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:52:29:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint gpio_write(unsigned int, unsigned int)[m[K’
+   52 |   gpio_write(pi, gpio_low, 1[01;31m[K)[m[K;
+      |                             [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:439:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  439 | int [01;36m[Kgpio_write[m[K(unsigned gpio, unsigned level);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:53:30:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint gpio_write(unsigned int, unsigned int)[m[K’
+   53 |   gpio_write(pi, gpio_high, 0[01;31m[K)[m[K;
+      |                              [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:439:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  439 | int [01;36m[Kgpio_write[m[K(unsigned gpio, unsigned level);
+      |     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:54:38:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint set_PWM_dutycycle(unsigned int, unsigned int)[m[K’
+   54 |   set_PWM_dutycycle(pi, gpio_pwm, pwm[01;31m[K)[m[K;
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/local/include/pigpiod_if.h:457:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  457 | int [01;36m[Kset_PWM_dutycycle[m[K(unsigned user_gpio, unsigned dutycycle);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/bb3.dir/build.make:63: CMakeFiles/bb3.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

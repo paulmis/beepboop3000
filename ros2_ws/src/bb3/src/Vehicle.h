@@ -14,6 +14,7 @@ using namespace std::chrono_literals;
 
 class Vehicle : public rclcpp::Node
 {
+	int pi;
 	std::string name;
 	Motor left_top, left_bottom, right_top, right_bottom;
 	rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscription;
@@ -56,13 +57,14 @@ public:
 
 	// Ctors and dtors
 	Vehicle(std::string name, Motor left_top, Motor left_bottom, Motor right_top, Motor right_bottom)
-		: Node("vehicle_" + name), name(name),
-		left_top(left_top), left_bottom(left_bottom), right_top(right_top), right_bottom(right_bottom)
+		: Node("vehicle"), name(name),
+		left_top(left_top), left_bottom(left_bottom), 
+		right_top(right_top), right_bottom(right_bottom)
 	{
 		// Create a subscription to the telemetry topic
 		subscription = this->create_subscription
 		<geometry_msgs::msg::Twist>(                     // message class
-			name + "_telemetry",                    // topic name
+			"cmd_vel",                    // topic name
 			10,                                     // message queue depth
 			std::bind(
 				&Vehicle::telemetry_callback, // callback function
@@ -110,11 +112,13 @@ public:
 		right_top.set_off();
 		right_bottom.set_off();
 	}
+
 	void stop(float delay)
 	{
 		stop();
 		time_sleep(delay);
 	}
+
 	void forward(int pwm, float delay)
 	{
 		left_top.set_high(pwm);
@@ -123,6 +127,7 @@ public:
 		right_bottom.set_high(pwm);
 		time_sleep(delay);
 	}
+	
 	void backward(int pwm, float delay)
 	{
 		left_top.set_low(pwm);
@@ -140,6 +145,7 @@ public:
 		right_bottom.set_low(pwm);
 		time_sleep(delay);
 	}
+
 	void right(int pwm, float delay)
 	{
 		left_top.set_low(pwm);

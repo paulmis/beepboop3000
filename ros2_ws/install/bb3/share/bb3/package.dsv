@@ -1,3 +1,6 @@
+source;share/bb3/hook/cmake_prefix_path.ps1
+source;share/bb3/hook/cmake_prefix_path.dsv
+source;share/bb3/hook/cmake_prefix_path.sh
 source;share/bb3/local_setup.bash
 source;share/bb3/local_setup.dsv
 source;share/bb3/local_setup.ps1
