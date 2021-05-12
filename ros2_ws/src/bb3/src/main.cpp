@@ -1,5 +1,5 @@
 #include "Vehicle.h"
-#include "lib/pigpio.h"
+#include <pigpio.h>
 
 #define LENAA 26
 #define LIN1 19

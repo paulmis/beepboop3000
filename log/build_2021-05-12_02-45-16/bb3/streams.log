@@ -1,0 +1,10 @@
+[0.013s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[0.035s] CMake Error at CMakeLists.txt:4:
+[0.035s]   Parse error.  Expected "(", got identifier with text "CMAKE_MODULE_PATH".
+[0.035s] 
+[0.036s] 
+[0.036s] -- Configuring incomplete, errors occurred!
+[0.036s] See also "/home/jesuschrist/projects/beepboop3000/build/bb3/CMakeFiles/CMakeOutput.log".
+[0.036s] See also "/home/jesuschrist/projects/beepboop3000/build/bb3/CMakeFiles/CMakeError.log".
+[0.037s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.040s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8

@@ -1,0 +1,11 @@
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In member function ‘[01m[Kvoid Vehicle::telemetry_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:29:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Klinear[m[K’
+   29 |   float velocity = telemetry.[01;31m[Klinear[m[K.x;
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:30:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangular[m[K’
+   30 |   float rotation = telemetry.[01;31m[Kangular[m[K.z;
+      |                              [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/bb3.dir/build.make:63: CMakeFiles/bb3.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

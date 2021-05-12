@@ -1,0 +1,63 @@
+[0.013s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[0.042s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.227s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.378s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.430s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.587s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.627s] -- Found pigpio: /usr/local/include  
+[0.629s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.690s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.692s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.692s] -- Configured cppcheck include dirs: 
+[0.692s] -- Configured cppcheck exclude dirs and/or files: 
+[0.693s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.693s] -- Configured cpplint exclude dirs and/or files: 
+[0.694s] -- Added test 'lint_cmake' to check CMake code style
+[0.695s] -- Added test 'uncrustify' to check C / C++ code style
+[0.695s] -- Configured uncrustify additional arguments: 
+[0.695s] -- Added test 'xmllint' to check XML markup files
+[0.698s] -- Configuring done
+[0.706s] -- Generating done
+[0.708s] -- Build files have been written to: /home/jesuschrist/projects/beepboop3000/build/bb3
+[0.732s] [35m[1mScanning dependencies of target bb3[0m
+[0.749s] [ 50%] [32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o[0m
+[0.768s] In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2[m[K,
+[0.768s]                  from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+[0.769s]                  from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[0.769s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4528:6:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.769s]  4528 | /home/* n
+[0.769s]       |       
+[0.769s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4529:22:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.769s]  4529 | /home/pi/shared/dir_1/* w
+[0.769s]       |                       
+[0.769s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4530:22:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.770s]  4530 | /home/pi/shared/dir_2/* r
+[0.770s]       |                       
+[0.770s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4531:22:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.770s]  4531 | /home/pi/shared/dir_3/* u
+[0.770s]       |                       
+[0.770s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4584:11:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.770s]  4584 |    // /ram/*.c r
+[0.770s]       |            
+[0.770s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4740:11:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.770s]  4740 |    // /ram/*.c r
+[0.771s]       |            
+[2.310s] [100%] [32m[1mLinking CXX executable bb3[0m
+[2.411s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `main':
+[2.411s] main.cpp:(.text+0xd4): undefined reference to `gpioInitialise'
+[2.411s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `Motor::Motor(int, int, int)':
+[2.412s] main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x41): undefined reference to `gpioSetMode'
+[2.412s] /usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x50): undefined reference to `gpioSetMode'
+[2.412s] /usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x5f): undefined reference to `gpioSetMode'
+[2.412s] /usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x6b): undefined reference to `Motor::set_off()'
+[2.412s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `void __gnu_cxx::new_allocator<Vehicle>::construct<Vehicle, char const (&) [13], Motor, Motor, Motor, Motor>(Vehicle*, char const (&) [13], Motor&&, Motor&&, Motor&&, Motor&&)':
+[2.412s] main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_]+0x16b): undefined reference to `Vehicle::Vehicle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Motor, Motor, Motor, Motor)'
+[2.412s] collect2: error: ld returned 1 exit status
+[2.413s] make[2]: *** [CMakeFiles/bb3.dir/build.make:136: bb3] Error 1
+[2.413s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+[2.413s] make: *** [Makefile:141: all] Error 2
+[2.417s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8

@@ -1,0 +1,18 @@
+[0.015s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[0.057s] [35m[1mScanning dependencies of target bb3[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o[0m
+[1.689s] [100%] [32m[1mLinking CXX executable bb3[0m
+[1.785s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `main':
+[1.785s] main.cpp:(.text+0xd4): undefined reference to `gpioInitialise'
+[1.785s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `Motor::Motor(int, int, int)':
+[1.785s] main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x41): undefined reference to `gpioSetMode'
+[1.785s] /usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x50): undefined reference to `gpioSetMode'
+[1.785s] /usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x5f): undefined reference to `gpioSetMode'
+[1.785s] /usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x6b): undefined reference to `Motor::set_off()'
+[1.786s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `void __gnu_cxx::new_allocator<Vehicle>::construct<Vehicle, char const (&) [13], Motor, Motor, Motor, Motor>(Vehicle*, char const (&) [13], Motor&&, Motor&&, Motor&&, Motor&&)':
+[1.786s] main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_]+0x16b): undefined reference to `Vehicle::Vehicle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Motor, Motor, Motor, Motor)'
+[1.786s] collect2: error: ld returned 1 exit status
+[1.787s] make[2]: *** [CMakeFiles/bb3.dir/build.make:136: bb3] Error 1
+[1.787s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+[1.787s] make: *** [Makefile:141: all] Error 2
+[1.789s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8

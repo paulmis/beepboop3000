@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:4:
+  Parse error.  Expected "(", got identifier with text "CMAKE_MODULE_PATH".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/jesuschrist/projects/beepboop3000/build/bb3/CMakeFiles/CMakeOutput.log".
+See also "/home/jesuschrist/projects/beepboop3000/build/bb3/CMakeFiles/CMakeError.log".
+make: *** [Makefile:266: cmake_check_build_system] Error 1

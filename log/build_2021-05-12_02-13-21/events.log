@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.001231] (bb3) JobQueued: {'identifier': 'bb3', 'dependencies': OrderedDict()}
+[0.001497] (bb3) JobStarted: {'identifier': 'bb3'}
+[0.014682] (bb3) JobProgress: {'identifier': 'bb3', 'progress': 'cmake'}
+[0.015787] (bb3) Command: {'cmd': ['/usr/bin/cmake', '/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3', '-DCMAKE_INSTALL_PREFIX=/home/jesuschrist/projects/beepboop3000/install/bb3'], 'cwd': '/home/jesuschrist/projects/beepboop3000/build/bb3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jesuschrist'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '1014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jesuschrist'), ('OLDPWD', '/home/jesuschrist'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '771'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jesuschrist'), ('JOURNAL_STREAM', '8:38120'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jesuschrist'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bs1:@/tmp/.ICE-unix/1057,unix/bs1:/tmp/.ICE-unix/1057'), ('INVOCATION_ID', '75d9510874f047e5810d44340ece98c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc564a74_f51c_4496_a4e5_9832fd96fc69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.185'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jesuschrist/projects/beepboop3000/build/bb3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100239] (-) TimerEvent: {}
+[0.109474] (bb3) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.185476] (bb3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.192281] (bb3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.200296] (-) TimerEvent: {}
+[0.258250] (bb3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.259239] (bb3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300420] (-) TimerEvent: {}
+[0.319975] (bb3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.331779] (bb3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.332282] (bb3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.334668] (bb3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400564] (-) TimerEvent: {}
+[0.407667] (bb3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.408858] (bb3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.479842] (bb3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.491860] (bb3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.492413] (bb3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.494188] (bb3) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.500630] (-) TimerEvent: {}
+[0.514896] (bb3) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.515178] (bb3) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600745] (-) TimerEvent: {}
+[0.692071] (bb3) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.700853] (-) TimerEvent: {}
+[0.729958] (bb3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.736201] (bb3) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.797657] (bb3) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.800955] (-) TimerEvent: {}
+[0.823371] (bb3) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.892612] (bb3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901104] (-) TimerEvent: {}
+[0.944046] (bb3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.945856] (bb3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.947138] (bb3) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001203] (-) TimerEvent: {}
+[1.014238] (bb3) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.014697] (bb3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.083234] (bb3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.083453] (bb3) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.101328] (-) TimerEvent: {}
+[1.139674] (bb3) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.140029] (bb3) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.201451] (-) TimerEvent: {}
+[1.206530] (bb3) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.207970] (bb3) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.301574] (-) TimerEvent: {}
+[1.350645] (bb3) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.384327] (bb3) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.401699] (-) TimerEvent: {}
+[1.450366] (bb3) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.451570] (bb3) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.451834] (bb3) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/lib\n'}
+[1.451966] (bb3) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.452755] (bb3) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.452953] (bb3) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.453658] (bb3) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.454567] (bb3) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.454725] (bb3) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.455016] (bb3) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.457916] (bb3) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.466055] (bb3) StdoutLine: {'line': b'-- Generating done\n'}
+[1.467448] (bb3) StdoutLine: {'line': b'-- Build files have been written to: /home/jesuschrist/projects/beepboop3000/build/bb3\n'}
+[1.473871] (bb3) CommandEnded: {'returncode': 0}
+[1.474747] (bb3) JobProgress: {'identifier': 'bb3', 'progress': 'build'}
+[1.475791] (bb3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jesuschrist/projects/beepboop3000/build/bb3', '--', '-j8', '-l8'], 'cwd': '/home/jesuschrist/projects/beepboop3000/build/bb3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jesuschrist'), ('LC_TIME', 'nl_NL.UTF-8'), ('SSH_AGENT_PID', '1014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jesuschrist'), ('OLDPWD', '/home/jesuschrist'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '771'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jesuschrist'), ('JOURNAL_STREAM', '8:38120'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jesuschrist'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bs1:@/tmp/.ICE-unix/1057,unix/bs1:/tmp/.ICE-unix/1057'), ('INVOCATION_ID', '75d9510874f047e5810d44340ece98c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc564a74_f51c_4496_a4e5_9832fd96fc69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.185'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jesuschrist/projects/beepboop3000/build/bb3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.501882] (-) TimerEvent: {}
+[1.514129] (bb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bb3\x1b[0m\n'}
+[1.549347] (bb3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o\x1b[0m\n'}
+[1.568411] (bb3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:2\x1b[m\x1b[K,\n'}
+[1.568816] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1\x1b[m\x1b[K,\n'}
+[1.569027] (bb3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[1.569240] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4528:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[1.569387] (bb3) StderrLine: {'line': b' 4528 | /home/* n\n'}
+[1.569526] (bb3) StderrLine: {'line': b'      |       \n'}
+[1.569620] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4529:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[1.569736] (bb3) StderrLine: {'line': b' 4529 | /home/pi/shared/dir_1/* w\n'}
+[1.569849] (bb3) StderrLine: {'line': b'      |                       \n'}
+[1.569949] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4530:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[1.570050] (bb3) StderrLine: {'line': b' 4530 | /home/pi/shared/dir_2/* r\n'}
+[1.570148] (bb3) StderrLine: {'line': b'      |                       \n'}
+[1.570243] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4531:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[1.570347] (bb3) StderrLine: {'line': b' 4531 | /home/pi/shared/dir_3/* u\n'}
+[1.570443] (bb3) StderrLine: {'line': b'      |                       \n'}
+[1.570538] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4584:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[1.570642] (bb3) StderrLine: {'line': b' 4584 |    // /ram/*.c r\n'}
+[1.570739] (bb3) StderrLine: {'line': b'      |            \n'}
+[1.570834] (bb3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/pigpio.h:4740:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[1.570931] (bb3) StderrLine: {'line': b' 4740 |    // /ram/*.c r\n'}
+[1.571027] (bb3) StderrLine: {'line': b'      |            \n'}
+[1.601991] (-) TimerEvent: {}
+[1.702323] (-) TimerEvent: {}
+[1.802672] (-) TimerEvent: {}
+[1.903047] (-) TimerEvent: {}
+[2.003482] (-) TimerEvent: {}
+[2.103888] (-) TimerEvent: {}
+[2.204334] (-) TimerEvent: {}
+[2.304743] (-) TimerEvent: {}
+[2.405156] (-) TimerEvent: {}
+[2.505592] (-) TimerEvent: {}
+[2.606000] (-) TimerEvent: {}
+[2.706391] (-) TimerEvent: {}
+[2.806851] (-) TimerEvent: {}
+[2.907246] (-) TimerEvent: {}
+[3.007707] (-) TimerEvent: {}
+[3.074995] (bb3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bb3\x1b[0m\n'}
+[3.107865] (-) TimerEvent: {}
+[3.175333] (bb3) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `main':\n"}
+[3.175644] (bb3) StderrLine: {'line': b"main.cpp:(.text+0xd4): undefined reference to `gpioInitialise'\n"}
+[3.175863] (bb3) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `Motor::Motor(int, int, int)':\n"}
+[3.175961] (bb3) StderrLine: {'line': b"main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x41): undefined reference to `gpioSetMode'\n"}
+[3.176034] (bb3) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x50): undefined reference to `gpioSetMode'\n"}
+[3.176102] (bb3) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x5f): undefined reference to `gpioSetMode'\n"}
+[3.176168] (bb3) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x6b): undefined reference to `Motor::set_off()'\n"}
+[3.176234] (bb3) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `void __gnu_cxx::new_allocator<Vehicle>::construct<Vehicle, char const (&) [13], Motor, Motor, Motor, Motor>(Vehicle*, char const (&) [13], Motor&&, Motor&&, Motor&&, Motor&&)':\n"}
+[3.176302] (bb3) StderrLine: {'line': b"main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_]+0x16b): undefined reference to `Vehicle::Vehicle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Motor, Motor, Motor, Motor)'\n"}
+[3.176373] (bb3) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[3.177194] (bb3) StderrLine: {'line': b'make[2]: *** [CMakeFiles/bb3.dir/build.make:136: bb3] Error 1\n'}
+[3.177432] (bb3) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2\n'}
+[3.177662] (bb3) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.179419] (bb3) CommandEnded: {'returncode': 2}
+[3.208072] (-) TimerEvent: {}
+[3.209408] (bb3) JobEnded: {'identifier': 'bb3', 'rc': 2}
+[3.220035] (-) EventReactorShutdown: {}

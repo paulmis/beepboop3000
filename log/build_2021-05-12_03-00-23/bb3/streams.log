@@ -1,0 +1,16 @@
+[0.016s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[0.057s] [35m[1mScanning dependencies of target bb3[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o[0m
+[1.725s] [100%] [32m[1mLinking CXX executable bb3[0m
+[1.822s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `main':
+[1.822s] main.cpp:(.text+0x151): undefined reference to `Motor::Motor(int, int, int)'
+[1.822s] /usr/bin/ld: main.cpp:(.text+0x16f): undefined reference to `Motor::Motor(int, int, int)'
+[1.822s] /usr/bin/ld: main.cpp:(.text+0x18d): undefined reference to `Motor::Motor(int, int, int)'
+[1.822s] /usr/bin/ld: main.cpp:(.text+0x1ab): undefined reference to `Motor::Motor(int, int, int)'
+[1.822s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `void __gnu_cxx::new_allocator<Vehicle>::construct<Vehicle, char const (&) [13], Motor, Motor, Motor, Motor>(Vehicle*, char const (&) [13], Motor&&, Motor&&, Motor&&, Motor&&)':
+[1.822s] main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_]+0x16b): undefined reference to `Vehicle::Vehicle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Motor, Motor, Motor, Motor)'
+[1.822s] collect2: error: ld returned 1 exit status
+[1.823s] make[2]: *** [CMakeFiles/bb3.dir/build.make:136: bb3] Error 1
+[1.823s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+[1.823s] make: *** [Makefile:141: all] Error 2
+[1.825s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8

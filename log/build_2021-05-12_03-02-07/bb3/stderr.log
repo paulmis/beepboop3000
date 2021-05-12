@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `void __gnu_cxx::new_allocator<Vehicle>::construct<Vehicle, char const (&) [13], Motor, Motor, Motor, Motor>(Vehicle*, char const (&) [13], Motor&&, Motor&&, Motor&&, Motor&&)':
+main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_]+0x16b): undefined reference to `Vehicle::Vehicle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Motor, Motor, Motor, Motor)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/bb3.dir/build.make:136: bb3] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,148 @@
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In member function ‘[01m[Kvoid Vehicle::telemetry_callback()[m[K’:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:29:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ktelemetry[m[K’ was not declared in this scope
+   29 |   float velocity = [01;31m[Ktelemetry[m[K.linear.x;
+      |                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:30:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+   30 |   float [01;31m[K=[m[K telemetry.angular.z;
+      |         [01;31m[K^[m[K
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:33:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmin(double, float&)[m[K’
+   33 |   velocity = std::max(0.0, std::min(1.0, velocity[01;31m[K)[m[K);
+      |                                                  [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/vector:60[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_algobase.h:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)[m[K’
+  198 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_algobase.h:198:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:33:50:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+   33 |   velocity = std::max(0.0, std::min(1.0, velocity[01;36m[K)[m[K);
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/vector:60[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_algobase.h:246:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)[m[K’
+  246 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_algobase.h:246:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:33:50:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+   33 |   velocity = std::max(0.0, std::min(1.0, velocity[01;36m[K)[m[K);
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/algorithm:62[m[K,
+                 from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:4[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_algo.h:3444:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)[m[K’
+ 3444 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_algo.h:3444:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:33:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+   33 |   velocity = std::max(0.0, std::min(1.0, velocity[01;36m[K)[m[K);
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/algorithm:62[m[K,
+                 from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:4[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_algo.h:3450:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)[m[K’
+ 3450 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_algo.h:3450:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:33:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+   33 |   velocity = std::max(0.0, std::min(1.0, velocity[01;36m[K)[m[K);
+      |                                                  [01;36m[K^[m[K
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:34:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krotation[m[K’ was not declared in this scope
+   34 |   [01;31m[Krotation[m[K = std::max(-1.0, std::min(1.0, rotation));
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In constructor ‘[01m[KVehicle::Vehicle()[m[K’:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:58:12:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+   58 |  Vehicle() [01;31m[K{[m[K}
+      |            [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:9[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1190:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+ 1190 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1190:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+   98 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+   86 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In constructor ‘[01m[KVehicle::Vehicle(std::string, Motor, Motor, Motor, Motor)[m[K’:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:65:19:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+   65 |   <geometry_msgs::[01;31m[KTwist[m[K>(                     // message class
+      |                   [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:4[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+  133 | using [01;36m[KTwist[m[K =
+      |       [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:65:19:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+   65 |   <geometry_msgs::[01;31m[KTwist[m[K>(                     // message class
+      |                   [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Motor.h:4[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:1[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+  133 | using [01;36m[KTwist[m[K =
+      |       [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:4[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+/usr/include/c++/9/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (Vehicle::*)(), Vehicle*, const std::_Placeholder<1>&>[m[K’:
+[01m[K/usr/include/c++/9/functional:787:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (Vehicle::*)(), Vehicle*, const std::_Placeholder<1>&>[m[K’
+[01m[K/usr/include/c++/9/functional:808:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (Vehicle::*)(); _BoundArgs = {Vehicle*, const std::_Placeholder<1>&}][m[K’
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:70:25:[m[K   required from here
+[01m[K/usr/include/c++/9/functional:775:7:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+  774 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+      |                               [01;31m[K~~~~~[m[K
+  775 | [01;31m[K      ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  776 | [01;31m[K      : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:70:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KVehicle::create_subscription<<expression error> >(std::__cxx11::basic_string<char>, int, std::_Bind_helper<false, void (Vehicle::*)(), Vehicle*, const std::_Placeholder<1>&>::type)[m[K’
+   70 |    std::placeholders::_1)[01;31m[K)[m[K;                // ??
+      |                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:9[m[K,
+                 from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  213 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:70:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   70 |    std::placeholders::_1)[01;31m[K)[m[K;                // ??
+      |                          [01;31m[K^[m[K
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:71:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   71 |   [01;31m[K)[m[K
+      |   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/bb3.dir/build.make:63: CMakeFiles/bb3.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

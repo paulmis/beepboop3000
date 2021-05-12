@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[0.042s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.234s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.378s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.424s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.426s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.560s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.591s] -- Found pigpio: /usr/local/include  
+[0.665s] -- Configuring done
+[0.674s] -- Generating done
+[0.676s] -- Build files have been written to: /home/jesuschrist/projects/beepboop3000/build/bb3
+[0.721s] [ 50%] [32m[1mLinking CXX executable bb3[0m
+[0.827s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `main':
+[0.827s] main.cpp:(.text+0xd4): undefined reference to `gpioInitialise'
+[0.827s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `Motor::Motor(int, int, int)':
+[0.827s] main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x41): undefined reference to `gpioSetMode'
+[0.827s] /usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x50): undefined reference to `gpioSetMode'
+[0.827s] /usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x5f): undefined reference to `gpioSetMode'
+[0.827s] /usr/bin/ld: main.cpp:(.text._ZN5MotorC2Eiii[_ZN5MotorC5Eiii]+0x6b): undefined reference to `Motor::set_off()'
+[0.827s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `void __gnu_cxx::new_allocator<Vehicle>::construct<Vehicle, char const (&) [13], Motor, Motor, Motor, Motor>(Vehicle*, char const (&) [13], Motor&&, Motor&&, Motor&&, Motor&&)':
+[0.828s] main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRA13_Kc5MotorS7_S7_S7_EEEvPT_DpOT0_]+0x16b): undefined reference to `Vehicle::Vehicle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Motor, Motor, Motor, Motor)'
+[0.828s] collect2: error: ld returned 1 exit status
+[0.829s] make[2]: *** [CMakeFiles/bb3.dir/build.make:136: bb3] Error 1
+[0.829s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+[0.829s] make: *** [Makefile:141: all] Error 2
+[0.831s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
