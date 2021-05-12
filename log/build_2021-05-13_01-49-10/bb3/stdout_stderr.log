@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target bb3[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In constructor ‘[01m[KVehicle::Vehicle(int, std::string, Motor, Motor, Motor, Motor)[m[K’:
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:17:6:[m[K [01;35m[Kwarning: [m[K‘[01m[KVehicle::pi[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   17 |  int [01;35m[Kpi[m[K;
+      |      [01;35m[K^~[m[K
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:62:50:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Krclcpp::Node[m[K’ [[01;35m[K-Wreorder[m[K]
+   62 |   right_top(right_top), right_bottom(right_bottom[01;35m[K)[m[K
+      |                                                  [01;35m[K^[m[K
+[01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:59:2:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   59 |  [01;35m[KVehicle[m[K(int pi, std::string name, Motor left_top, Motor left_bottom, Motor right_top, Motor right_bottom)
+      |  [01;35m[K^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable bb3[0m
+[100%] Built target bb3
+-- Install configuration: ""
+-- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/lib/bb3/bb3
+-- Set runtime path of "/home/jesuschrist/projects/beepboop3000/install/bb3/lib/bb3/bb3" to ""
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/package_run_dependencies/bb3
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/parent_prefix_path/bb3
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/ament_prefix_path.sh
+-- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/path.sh
+-- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/path.dsv
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.bash
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.sh
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.zsh
+-- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.dsv
+-- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/package.dsv
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/packages/bb3
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/cmake/bb3Config.cmake
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/cmake/bb3Config-version.cmake
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/package.xml

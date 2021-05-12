@@ -16,13 +16,23 @@
 
 int main(int argc, char * argv[])
 {
-    gpioInitialise();
+    // Initialize pigpiod_if2
+    int pi = pigpio_start(nullptr, nullptr);
 
-    rclcpp::init(argc, argv);
-    rclcpp::spin(
-        std::make_shared<Vehicle>(
-            "beepboop3000", 
-            Motor(RIN1, RIN2, RENAA), Motor(RIN4, RIN3, RENAB),
-		    Motor(LIN3, LIN4, LENAB), Motor(LIN2, LIN1, LENAA)));
-    rclcpp::shutdown();
+    // If the assigned raspberrypi number is non-negative,
+    // the initialization succeeded
+    if (pi >= 0)
+    {
+        rclcpp::init(argc, argv);
+        rclcpp::spin(
+            std::make_shared<Vehicle>(
+                pi, "beepboop3000", 
+                Motor(pi, RIN1, RIN2, RENAA), Motor(pi, RIN4, RIN3, RENAB),
+                Motor(pi, LIN3, LIN4, LENAB), Motor(pi, LIN2, LIN1, LENAA)));
+        rclcpp::shutdown();
+    }
+    else 
+    {
+        std::cout << "pigpiod_if2 initialization failed: code " << pi << std::endl;
+    }    
 }

@@ -1,0 +1,38 @@
+[0.013s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[0.041s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.223s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.261s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.378s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.432s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.434s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.570s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.602s] CMake Warning at CMakeLists.txt:19 (message):
+[0.602s]   /home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3
+[0.602s] 
+[0.602s] 
+[0.670s] -- Configuring done
+[0.678s] -- Generating done
+[0.680s] -- Build files have been written to: /home/jesuschrist/projects/beepboop3000/build/bb3
+[0.720s] [100%] Built target bb3
+[0.732s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[0.765s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jesuschrist/projects/beepboop3000/build/bb3
+[0.773s] -- Install configuration: ""
+[0.773s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/lib/bb3/bb3
+[0.773s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/package_run_dependencies/bb3
+[0.774s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/parent_prefix_path/bb3
+[0.774s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/ament_prefix_path.sh
+[0.774s] -- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/ament_prefix_path.dsv
+[0.774s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/path.sh
+[0.774s] -- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/path.dsv
+[0.775s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.bash
+[0.775s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.sh
+[0.775s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.zsh
+[0.775s] -- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.dsv
+[0.775s] -- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/package.dsv
+[0.775s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/packages/bb3
+[0.776s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/cmake/bb3Config.cmake
+[0.776s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/cmake/bb3Config-version.cmake
+[0.776s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/package.xml
+[0.778s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jesuschrist/projects/beepboop3000/build/bb3

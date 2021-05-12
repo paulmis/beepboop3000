@@ -1,0 +1,21 @@
+[0.013s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[0.041s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.222s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.409s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.411s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.543s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.632s] -- Configuring done
+[0.641s] -- Generating done
+[0.642s] -- Build files have been written to: /home/jesuschrist/projects/beepboop3000/build/bb3
+[0.693s] [ 50%] [32m[1mLinking CXX executable bb3[0m
+[0.919s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `main':
+[0.919s] main.cpp:(.text+0x1b7): undefined reference to `pigpio_start'
+[0.921s] collect2: error: ld returned 1 exit status
+[0.922s] make[2]: *** [CMakeFiles/bb3.dir/build.make:136: bb3] Error 1
+[0.922s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+[0.923s] make: *** [Makefile:141: all] Error 2
+[0.925s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8

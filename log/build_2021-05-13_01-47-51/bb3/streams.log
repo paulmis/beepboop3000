@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[0.058s] [35m[1mScanning dependencies of target bb3[0m
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o[0m
+[1.288s] In file included from [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/main.cpp:1[m[K:
+[1.289s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:[m[K In constructor ‘[01m[KVehicle::Vehicle(int, std::string, Motor, Motor, Motor, Motor)[m[K’:
+[1.289s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:17:6:[m[K [01;35m[Kwarning: [m[K‘[01m[KVehicle::pi[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[1.289s]    17 |  int [01;35m[Kpi[m[K;
+[1.289s]       |      [01;35m[K^~[m[K
+[1.289s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:62:50:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Krclcpp::Node[m[K’ [[01;35m[K-Wreorder[m[K]
+[1.289s]    62 |   right_top(right_top), right_bottom(right_bottom[01;35m[K)[m[K
+[1.289s]       |                                                  [01;35m[K^[m[K
+[1.289s] [01m[K/home/jesuschrist/projects/beepboop3000/ros2_ws/src/bb3/src/Vehicle.h:59:2:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[1.289s]    59 |  [01;35m[KVehicle[m[K(int pi, std::string name, Motor left_top, Motor left_bottom, Motor right_top, Motor right_bottom)
+[1.289s]       |  [01;35m[K^~~~~~~[m[K
+[4.757s] [100%] [32m[1mLinking CXX executable bb3[0m
+[4.988s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `Motor::set_off()':
+[4.988s] main.cpp:(.text._ZN5Motor7set_offEv[_ZN5Motor7set_offEv]+0x1f): undefined reference to `gpioWrite'
+[4.988s] /usr/bin/ld: main.cpp:(.text._ZN5Motor7set_offEv[_ZN5Motor7set_offEv]+0x32): undefined reference to `gpioWrite'
+[4.988s] /usr/bin/ld: main.cpp:(.text._ZN5Motor7set_offEv[_ZN5Motor7set_offEv]+0x45): undefined reference to `gpioPWM'
+[4.988s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `Motor::set_high(int)':
+[4.988s] main.cpp:(.text._ZN5Motor8set_highEi[_ZN5Motor8set_highEi]+0x22): undefined reference to `gpioWrite'
+[4.989s] /usr/bin/ld: main.cpp:(.text._ZN5Motor8set_highEi[_ZN5Motor8set_highEi]+0x35): undefined reference to `gpioWrite'
+[4.989s] /usr/bin/ld: main.cpp:(.text._ZN5Motor8set_highEi[_ZN5Motor8set_highEi]+0x48): undefined reference to `gpioPWM'
+[4.989s] /usr/bin/ld: CMakeFiles/bb3.dir/src/main.cpp.o: in function `Motor::set_low(int)':
+[4.989s] main.cpp:(.text._ZN5Motor7set_lowEi[_ZN5Motor7set_lowEi]+0x22): undefined reference to `gpioWrite'
+[4.989s] /usr/bin/ld: main.cpp:(.text._ZN5Motor7set_lowEi[_ZN5Motor7set_lowEi]+0x35): undefined reference to `gpioWrite'
+[4.989s] /usr/bin/ld: main.cpp:(.text._ZN5Motor7set_lowEi[_ZN5Motor7set_lowEi]+0x48): undefined reference to `gpioPWM'
+[4.989s] collect2: error: ld returned 1 exit status
+[4.991s] make[2]: *** [CMakeFiles/bb3.dir/build.make:136: bb3] Error 1
+[4.991s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bb3.dir/all] Error 2
+[4.991s] make: *** [Makefile:141: all] Error 2
+[4.994s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8

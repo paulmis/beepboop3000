@@ -32,6 +32,6 @@
 *.app
 
 # cmake
-build
-ros2_ws/build
-ros2_ws/log
+build/
+ros2_ws/build/
+ros2_ws/log/

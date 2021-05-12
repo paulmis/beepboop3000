@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[0.055s] [35m[1mScanning dependencies of target bb3[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/bb3.dir/src/main.cpp.o[0m
+[4.544s] [100%] [32m[1mLinking CXX executable bb3[0m
+[4.780s] [100%] Built target bb3
+[4.790s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jesuschrist/projects/beepboop3000/build/bb3 -- -j8 -l8
+[4.821s] Invoking command in '/home/jesuschrist/projects/beepboop3000/build/bb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jesuschrist/projects/beepboop3000/build/bb3
+[4.828s] -- Install configuration: ""
+[4.828s] -- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/lib/bb3/bb3
+[4.830s] -- Set runtime path of "/home/jesuschrist/projects/beepboop3000/install/bb3/lib/bb3/bb3" to ""
+[4.830s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/package_run_dependencies/bb3
+[4.831s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/parent_prefix_path/bb3
+[4.831s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/ament_prefix_path.sh
+[4.831s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/ament_prefix_path.dsv
+[4.831s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/path.sh
+[4.831s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/path.dsv
+[4.831s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.bash
+[4.831s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.sh
+[4.831s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.zsh
+[4.832s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.dsv
+[4.832s] -- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/package.dsv
+[4.832s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/packages/bb3
+[4.832s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/cmake/bb3Config.cmake
+[4.832s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/cmake/bb3Config-version.cmake
+[4.833s] -- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/package.xml
+[4.834s] Invoked command in '/home/jesuschrist/projects/beepboop3000/build/bb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jesuschrist/projects/beepboop3000/build/bb3

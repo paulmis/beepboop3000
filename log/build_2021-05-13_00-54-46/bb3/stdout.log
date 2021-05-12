@@ -1,0 +1,30 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jesuschrist/projects/beepboop3000/build/bb3
+[100%] Built target bb3
+-- Install configuration: ""
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/lib/bb3/bb3
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/package_run_dependencies/bb3
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/parent_prefix_path/bb3
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/ament_prefix_path.sh
+-- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/path.sh
+-- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/environment/path.dsv
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.bash
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.sh
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.zsh
+-- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/local_setup.dsv
+-- Installing: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/package.dsv
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/ament_index/resource_index/packages/bb3
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/cmake/bb3Config.cmake
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/cmake/bb3Config-version.cmake
+-- Up-to-date: /home/jesuschrist/projects/beepboop3000/install/bb3/share/bb3/package.xml

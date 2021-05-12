@@ -56,8 +56,8 @@ class Vehicle : public rclcpp::Node
 public:
 
 	// Ctors and dtors
-	Vehicle(std::string name, Motor left_top, Motor left_bottom, Motor right_top, Motor right_bottom)
-		: Node("vehicle"), name(name),
+	Vehicle(int pi, std::string name, Motor left_top, Motor left_bottom, Motor right_top, Motor right_bottom)
+		: Node("vehicle"), pi(pi), name(name),
 		left_top(left_top), left_bottom(left_bottom), 
 		right_top(right_top), right_bottom(right_bottom)
 	{

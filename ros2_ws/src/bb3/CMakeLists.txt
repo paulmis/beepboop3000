@@ -21,7 +21,7 @@ find_package(pigpio REQUIRED)
 # executable
 add_executable(bb3 src/main.cpp)
 ament_target_dependencies(bb3 rclcpp std_msgs geometry_msgs pigpio)
-target_link_libraries(bb3 pigpio "${CMAKE_THREAD_LIBS_INIT}")
+target_link_libraries(bb3 pigpiod_if2 "${CMAKE_THREAD_LIBS_INIT}")
 install(TARGETS bb3 DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
