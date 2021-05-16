@@ -3,7 +3,7 @@ A cool, SLAM-based, autonomous robotic platform.
 
 ## Platform
 - Raspberry Pi 3B
-- Ubuntu Server 20 with ROS2 Foxy
+- raspi with [ros2 Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
 - beepboop3000
 
 ## Installation
@@ -42,6 +42,7 @@ Download and build using colcon
 cd ros2_ws
 source /opt/ros/foxy/setup.bash
 rosdep install -i --from-path src --rosdistro foxy -y
+colcon build --packages-select bb3
 . install/setup.bash
 ```
 
@@ -57,4 +58,4 @@ ros2 run bb3 bb3
 ```
 
 ## How does bb3 work?
-beepboop subscribes to the `cmd_vel` topic and accepts Twist messages (geometry_msgs/Twist). To steer the robot run `teleop_twist_keyboard` on the same network and press keys. Fun!
+beepboop subscribes to the `cmd_vel` topic and accepts Twist messages (geometry_msgs/Twist). To steer the robot run `teleop_twist_keyboard` on the same network and press keys, or set up a joystick through teleop_twist_joy and move the robot using its controls. Fun!
