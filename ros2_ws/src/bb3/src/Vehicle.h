@@ -31,7 +31,7 @@ class Vehicle : public rclcpp::Node
 		float rotation = telemetry->angular.z;
 
 		// Truncate
-		velocity = std::max(0.0f, std::min(1.0f, velocity));
+		velocity = std::max(-1.0f, std::min(1.0f, velocity));
 		rotation = std::max(-1.0f, std::min(1.0f, rotation));
 
 		// Translate to motor signals

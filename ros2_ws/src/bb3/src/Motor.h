@@ -31,11 +31,13 @@ public:
 		set_PWM_dutycycle(pi, gpio_pwm, 0);
 	}
 
+	// Sets the direction and strenght of rotation
+	// Input in range [-1.0, 1.0]
 	void set(float signal)
 	{
 		int pwm = (int)round(fabs(signal) * 255);
 		if (pwm == 0)     set_off();
-		else if (pwm > 0) set_high(pwm);
+		else if (signal > 0) set_high(pwm);
 		else              set_low(pwm);
 	}
 
