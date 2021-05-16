@@ -23,7 +23,9 @@ int main(int argc, char * argv[])
     // the initialization succeeded
     if (pi >= 0)
     {
+	std::cout << "pigpiod_if2 initialized successfully" << std::endl;
         rclcpp::init(argc, argv);
+	std::cout << "spinning the vehicle...!" << std::endl;
         rclcpp::spin(
             std::make_shared<Vehicle>(
                 pi, "beepboop3000", 
