@@ -57,5 +57,35 @@ Run bb3:
 ros2 run bb3 bb3
 ```
 
+#### Remote control with a joystick 
+To control the robot using a joystick, use 'teleop_twist_joy'.
+First, install 'joy' and 'teleop_twist_joy':
+```
+sudo apt-get install ros-foxy-teleop-twist-joy
+```
+Check what device number has been assigned to your joystick:
+```
+ls /dev/input
+```
+By default joysticks start with js and are appended with consecutive integers. In my case, the joystick is assigned to `js0`. Now let's test the joystick:
+```
+jstest -l /dev/input/js0
+```
+You should see something similar to
+```
+crw-rw-XX- 1 root dialout 188, 0 2009-08-14 12:04 /dev/input/jsX
+```
+If XX is rw: the js device is configured properly.
+
+If XX is --: the js device is not configured properly and you need to: 
+```
+sudo chmod a+rw /dev/input/jsX
+```
+Now run the `teleop_twist_joy` node:
+```
+ros2 launch teleop_twist_joy teleop-launch.py joy_config:='xbox'
+```
+Depending on the controller its messages will be translated differently. In my case I have to press RB and move the left stick.
+
 ## How does bb3 work?
 beepboop subscribes to the `cmd_vel` topic and accepts Twist messages (geometry_msgs/Twist). To steer the robot run `teleop_twist_keyboard` on the same network and press keys, or set up a joystick through teleop_twist_joy and move the robot using its controls. Fun!
