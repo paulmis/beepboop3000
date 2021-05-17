@@ -58,12 +58,11 @@ ros2 run bb3 bb3
 ```
 
 #### Remote control with a joystick 
-To control the robot using a joystick, use 'teleop_twist_joy'.
-First, install 'joy' and 'teleop_twist_joy':
+To control the robot using a joystick, use [teleop_twist_joy](https://index.ros.org/p/teleop_twist_joy/github-ros2-teleop_twist_joy/):
 ```
 sudo apt-get install ros-foxy-teleop-twist-joy
 ```
-Check what device number has been assigned to your joystick:
+Follwing [this](http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick) tutorial, check what device number has been assigned to your joystick:
 ```
 ls /dev/input
 ```
