@@ -1,10 +1,30 @@
 # beepboop3000 [bb3]
-A cool, SLAM-based, autonomous robotic platform.
+A cool, SLAM-based, smart robot. `bb3` is a proof of concept for low-cost, autonomous vehicle designed to fulfill tasks in warehouse-like environments. Built on `ros2`, it exposes steering functions and on-board sensor data over a local network, enabling the user to control and monitor it through a control panel.
 
 ## Platform
+bb3 runs on raspi with [ros2 Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html) and is built with
 - Raspberry Pi 3B
-- raspi with [ros2 Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
-- beepboop3000
+- Raspberry Pi HQ Camera with 6mm lens
+- YDLIDAR X4 2D-lidar (5Hz, 0.5deg resolution up to 10m)
+- x4 TT DC motors w/ 65mm rubber wheels
+- x2 L298N dual h-bridges
+- x16 AA NiMH 1.2V 1900mAh (in 2 x8 packs, one per bridge)
+- MPU9250 9-DOF acc/gyro/mag breakout
+- HC-SR04 ultrasonic sensor
+- pre-cut plastic chasis with 3d-printed ABS lidar mounting plate
+
+We're planning an upgrade for most of the components, including:
+- Pi 3B -> Jetson Nano (edge visual recognition, complex ros setup)
+- 65mm rubber wheels -> 80mm plastic meccanum wheels (naviagion flexibility)
+- TT DC motors -> 12V 775 motors (more power)
+- AA NiMH -> 4S LiPo battery pack (more power)
+- L298N bridges -> breakout 4 motor bridge (lower power losses)
+- plastic chasis -> fully custom chasis
+
+<p align="center">
+  <img src="https://i.imgur.com/c2YiahP.jpg" />
+  <i>Current version of bb3</i>
+</p>
 
 ## Installation
 #### Install pigpio
