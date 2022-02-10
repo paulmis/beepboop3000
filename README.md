@@ -29,10 +29,23 @@ We're planning an upgrade for most of the components, including:
 ## Installation
 
 #### Install raspi
-Donwload the raspi imager from [here](https://www.raspberrypi.com/software/) and burn the image onto the MicroSD card.
+1. Donwload the raspi imager from [here](https://www.raspberrypi.com/software/) and burn the image onto the MicroSD card.
+2. Plug the MicroSD into the pi and power. The system will take a couple of minutes to set up.
+3. Connect to the local network.
+
+#### Connect remotely
+You can connect to the pi remotely on a local network through SSH. To enable SSH go to
+
+`top left corner` -> `preferences` -> `Raspberry Pi Configuration` -> `Interfaces` -> toggle `SSH`
+
+To find the local address type `ifconfig` in the console. The `inet` address that starts with `192.168` is the local `IPv4` address.
+- `eth0` is the wired connection
+- `wlan0` is the wireless connection
+
+You can then remotely connect to the pi with `ssh username@192.168.x.x` (default username is `pi`). Note that there are issues with the wireless connection that require further configuration.
 
 #### Install pigpio
-Download and build using cmake (from http://abyz.me.uk/rpi/pigpio/download.html)
+Download and build using cmake (per [this](http://abyz.me.uk/rpi/pigpio/download.html))
 ```
 wget https://github.com/joan2937/pigpio/archive/master.zip
 unzip master.zip
@@ -41,27 +54,38 @@ make
 sudo make install
 ```
 
+#### Install ros tools
+1. Add in **ROS apt** repos (per [this](https://colcon.readthedocs.io/en/released/user/installation.html))
+```
+sudo sh -c 'echo "deb [arch=amd64,arm64] http://repo.ros2.org/ubuntu/main `lsb_release -cs` main" > /etc/apt/sources.list.d/ros2-latest.list'
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+sudo apt update
+```
+
+2. Get **colcon**
+```
+sudo apt install python3-colcon-common-extensions
+```
+
 If the Python part of the install fails it may be because you need the setup tools.
 ```
 sudo apt install python-setuptools python3-setuptools
 ```
 
-#### Install ros tools
-Get rosdep
+3. Get **rosdep**
 ```
-sudo apt update
-sudo apt install -y python-rosdep
-sudo rosdep init # if already initialized you may continue
+sudo apt install -y python3-rosdep2
+sudo rosdep init # if already initialized you can continue
 rosdep update
 ```
 
-Get colcon
-```
-sudo apt install python3-colcon-common-extensions
-```
+4. Get **ros2 foxy** by following [this](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html).
+
+Note that locales do need to be updated on raspi. You can verify if locales are set up correctly with the guide [here](https://www.howtoraspberry.com/2020/04/fix-locale-problems-on-raspberry-pi/).
 
 #### Install bb3
-Download and build using colcon
+Download the source from `master` and build with colcon
+
 ```
 cd ros2_ws
 source /opt/ros/foxy/setup.bash
