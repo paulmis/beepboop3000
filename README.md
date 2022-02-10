@@ -27,6 +27,10 @@ We're planning an upgrade for most of the components, including:
 </p>
 
 ## Installation
+
+#### Install raspi
+Donwload the raspi imager from [here](https://www.raspberrypi.com/software/) and burn the image onto the MicroSD card.
+
 #### Install pigpio
 Download and build using cmake (from http://abyz.me.uk/rpi/pigpio/download.html)
 ```
